@@ -1,0 +1,499 @@
+EVENT NAME
+
+IFPC 2020
+
+EVENT DATE: THURSDAY, 29 OCTOBER, 2020 - 07:00 AM to 02:00 PM
+
+EVENT BY: AV SERVICES
+
+
+
+Posted Questions
+[08:54 AM]
+Richard Vorder Bruegge asked : @Patrick Grother - Would you consider re-running the DOVE Beauty video using a modern FR algorithm?
+6 upvotes | 2 answers | 1 reply
+
+Patrick Grother answered -
+Yes, great idea! I looked at the files just a couple of weeks ago, all in order. 
+
+Richard Vorder Bruegge replied -
+Great - please let me know when you've had a chance to get to it...
+
+Patrick Grother answered -
+Will try this PM.  Perhaps show here tomorrow AM.
+
+
+[10:05 AM]
+Richard Gauthier asked : Can the combination of image capture and liveness detection be used as a mitigation to morph enrolment?
+
+6 upvotes | 0 answer | 0 reply
+
+
+[12:28 PM]
+Yevgeniy Sirotin asked : Should we add calibrated color control to this list to ensure that the pigmentation is captured appropriately and that exposure can be appropriately set?
+6 upvotes | 0 answer | 0 reply
+
+
+[07:44 AM]
+Sergio Castro Martínez asked : Can you explain deeper “no evidence face matchers leverage morphological features”?
+5 upvotes | 1 answer | 0 reply
+
+Lars Ericson answered -
+In this context, morphological features mean things like distance between eyes, width of the nose, etc...  The heatmaps do not appear to align with those discrete measurement regions of the face.  However, further research is likely needed to prove/disprove this observation.
+
+
+[08:09 AM]
+anonymous asked : Are there any plans to make available a dataset with examples of all of those facial PA categories?  
+5 upvotes | 0 answer | 0 reply
+
+
+[12:27 PM]
+martine lapere asked : I'm not feeling try comfortable with the measure of inter eye distance in terms of digital pixels since the photo can be upsampled. (eg. in case it was filtered ). important is the actual meaningful (in terms of entropy) pixels. Is it possible to adapt this measure? 
+5 upvotes | 0 answer | 0 reply
+
+
+[07:44 AM]
+Tiago de Freitas Pereira asked : I have a question about the saliency maps for face recognition as a proxy for explainability.
+Saliency maps highlight the most important regions of the face w.r.t some criteria.
+How these criteria (that's pure mathematical) helps to deliver some explanation to humans?
+
+4 upvotes | 1 answer | 0 reply
+
+Lars Ericson answered -
+I recommend you check out the academic paper in this link to learn about the underlying mathematics: https://stresearch.github.io/xfr/
+
+
+[08:07 AM]
+Yevgeniy Sirotin asked : For Lars: In DHS FR use with high match thresholds, most of the AI errors will be non-matches.  Is there any effort to communicate reasons for match failure to reviewers of these systems?
+4 upvotes | 1 answer | 1 reply
+
+Lars Ericson answered -
+The explainability can also be used to answer "why are these not a match?"  That was not a focus of the research, but it could elaborated on using this as a starting foundation.
+
+Yevgeniy Sirotin replied -
+Yes, from the perspective of human algorithm teaming, it would be important for the user to know that the non-match is due to true differences in the face as opposed to say environmental or quality issues.  If the latter, a new acquisition may help.
+
+
+[11:29 AM]
+Kayee Hanaoka asked : From Jean Salomon:
+Are there morphing superobservers already being identified or groomed among LEAs?
+4 upvotes | 1 answer | 0 reply
+
+Kiran Raja, NTNU answered -
+Not yet, but the goal is to identufy such ones. We have seem some observers performing extremely well and we are asking them to participate in additional experiements.
+
+
+
+[09:35 AM]
+Richard Vorder Bruegge asked : Do you think that adapting GANs - especially the discriminator side - could allow for greater diversity in generated images?
+I.e., discriminator lets more 'variety' in?
+3 upvotes | 0 answer | 0 reply
+
+
+[09:39 AM]
+Ilias Batskos asked : GANS usually produce lower resolution images than real-life captured images have. Were your tests performed with similar resolution images? 
+3 upvotes | 1 answer | 1 reply
+
+Stephane Gentric answered -
+tests have been done with 1024*1024 or 512*512 images, which is superior to the working resolution of most biometric algorithms 
+
+Ilias Batskos replied -
+thank you
+
+
+[09:45 AM]
+Jacob Hasselgren asked : @Stephane From what I remember when using  StyleGAN, it can produce images that appear inhuman (i.e. half face cut off, missing most of the discriminators). Were those identified during your processing? Was there anything done with them?
+3 upvotes | 1 answer | 0 reply
+
+Stephane Gentric answered -
+Monster comes from non-continuity in the learning dataset more than from the GANs algorithms.
+On a dataset of frontal mughsot (uniform background, few glasses) we see almost no monster. 
+
+and yes, there is less and less monsters with improvement of GANs.
+filtering GANs images with a biometric quality, helps.
+
+
+[10:09 AM]
+Dmitry GORODNICHY asked : For Nist or EAB: do you work with G7 Roma Lyon Migration Experts Subgroup on Face Morphing? Any plans? 
+3 upvotes | 2 answers | 0 reply
+
+Christoph Busch answered -
+For EAB I can state: We consider the morphing problem as a very serious threat. EAB members are involved in the iMARS project and are willing to present to G7 meetings and other events that help to create awareness.
+
+Patrick Grother answered -
+Same answer for NIST.
+
+
+[10:57 AM]
+Dan Bachenheimer asked : To achieve IAL4 it MUST be in-person or remote supervised
+3 upvotes | 1 answer | 0 reply
+
+Christoph Busch answered -
+In-person live enrolment is the recommended way to go. But kiosks are around are like to be operated further
+
+
+[11:19 AM]
+Yevgeniy Sirotin asked : Humans are very poor at matching unfamiliar faces, are we at a point with face recognition that we should go toward full automation of this biometric process?
+3 upvotes | 1 answer | 0 reply
+
+Kiran Raja, NTNU answered -
+Hi Yevgeniy, both yes and no. As much as we would want to get it automated, there should be minimal manual control to check false matches/false rejects in MAD.
+
+
+[11:49 AM]
+Bill Ford asked : has anyone tested a morph were subject 1 is real and subject 2 is a none existing person?
+
+3 upvotes | 1 answer | 0 reply
+
+Christoph Busch answered -
+@Jeremy: Your algorithm seem to be in a progressed state. Will your algorithms be contained in the next NIST-FRVT-MORPH report?
+
+
+[12:44 PM]
+Yevgeniy Sirotin asked : Some work from our group found demographic effects on the ability of commercial systems to acquire face images.  Do you think that the addition of a quality algorithm to the acquisition process will mitigate or exacerbate such acquisition effects?
+3 upvotes | 1 answer | 0 reply
+
+Patrick Grother answered -
+If the algorithm is effective I think so, more on the false rejection side.  Sorry I missed the jist of the question when I spoke
+
+
+[07:40 AM]
+John J. Howard asked : Lars, are you aware of any research into FR decision visualization that does something different than a heatmap? Are there other ways to "explain" an FR decision?
+2 upvotes | 1 answer | 1 reply
+
+Lars Ericson answered -
+That seems to be the dominant mechanism for expainability because it lends itself to image processing through the CNN and it aligns with visual methodology used by face examiners.
+
+John J. Howard replied -
+Thanks Lars.  We might reach about some different ideas about how to communicate this information that could be useful.
+
+
+
+[09:57 AM]
+James Wayman asked : The UK government gave a public presentation on the threat of morphing to biometric systems in 2004.  Lewis and Statham, "CESG Biometric Security Capabilities Programme", US BIometric Consortium Conference, 21 July, 2004
+2 upvotes | 0 answer | 0 reply
+
+
+[10:01 AM]
+Quentin Revell asked : Are all of the algorithms looking at the visible part f the image - do any look at metadata anomalies?
+2 upvotes | 0 answer | 0 reply
+
+
+[11:15 AM]
+Lina asked : For the Different-MAD scenario, if we can detect the morphing attack from the photo passport directly, do you think still necessary to be compared with the live capture?
+2 upvotes | 1 answer | 1 reply
+
+Christoph Busch answered -
+In the Differential-MAD scenario you do have a image pair (suspected image and trusted live capture). I you just have the image from the passport (which is the suspected image), then this is the forensic S-MAD scenario.
+
+Lina replied -
+I mean how if the live capture it self is not trusted, because this scenario is used in border control while the suspect brings the morphing passport, in this case do you think that it makes sense to compare with the live capture?
+
+
+[11:18 AM]
+Kristina Vasser asked : Question to Christoph: firstly I want to thank you for very interesting presentation. I was wondering what do you think about the scenario of accredited photographer who is operating under accredited quality system. Would it also be acceptable instead of live enrolment option? 
+2 upvotes | 1 answer | 1 reply
+
+Christoph Busch answered -
+The German passport law has made that suggestion of accredited photographers. See: https://dip21.bundestag.de/dip21/btd/19/219/1921986.pdf
+you can also view the discussion (in German) at: https://www.bundestag.de/mediathek?videoid=7478999#url=L21lZGlhdGhla292ZXJsYXk/dmlkZW9pZD03NDc4OTk5&mod=mediathek
+
+
+Kristina Vasser replied -
+Thank you!
+
+
+[11:25 AM]
+Rebecca Heyer asked : If generalizable algorithms are developed for detecting morphs, who is going to be responsible for responding to alerts and what training might these people need to resolve the alert? Is anyone working on this?
+2 upvotes | 1 answer | 0 reply
+
+Kiran Raja, NTNU answered -
+I am not sure if I answered it, but the end users in the iMARS project will be looking at this aspect. The goal is to create awareness among ID experts, border gaurds to interpret the score from algorithm and also analyze the image. Frøy from Norwegian Police is working on this with us along with many other similar partners from Germany, Netherlands.
+
+
+[11:26 AM]
+Richard Vorder Bruegge asked : I have started to add morph awareness (and basic detection suggestions) to my facial comparison classes...
+2 upvotes | 0 answer | 0 reply
+
+
+[12:21 PM]
+Richard Vorder Bruegge asked : Assuming the answer to my prior question is "yes" could you see any support for developing a human face quality metric system comparable to the National Imagery Interpretability Rating Scale (a subjective scale used for rating the quality of imagery from different imaging systems)?
+2 upvotes | 0 answer | 0 reply
+
+
+[12:48 PM]
+John J. Howard asked : Patrick, thank you for a link to Annex 8, I was unaware of that Annex.  Do you recall if there were any FR algorithms that did not show the broad homogeneity effects we discussed yesterday?
+2 upvotes | 1 answer | 0 reply
+
+Patrick Grother answered -
+Not that I recall.  Some CN algorithms behave differently on CN photos.
+
+
+
+[07:41 AM]
+Marek Rejman-Greene asked : Could you indicate the level of funding for the Janus programme and has an estimate been made of of the benefit to the UIS government? If so, are the value for money methods available publicly?
+1 upvote | 1 answer | 0 reply
+
+Lars Ericson answered -
+I am not able to share those details in a public setting, but I can carry on the discussion with government colleagues offline.
+
+
+[08:00 AM]
+Yevgeniy Sirotin asked : Is there any information on the robustness of these PA algorithms with respect to which device acquired the images on which subject?  Are they equally good across devices and subject demographics?
+1 upvote | 1 answer | 1 reply
+
+Lars Ericson answered -
+Even for the software-only PAD solutions, there is some sensitivity to the capture sensor. However, cross-sensor robustness is a key objective of Phase 3.  There are some good papers recently published that highlight work to mitigate these effects.  One example is: https://arxiv.org/abs/2004.02941.  There is more research but the relevant papers are being prepared.
+
+The demographic question was mostly addressed by the speaker.  We have metadata for all collection events that captures subject_ID (+ PA_ID) + encounter + sensor + algorithm.  This allows us to do detailed data and covariant analysis.
+
+Yevgeniy Sirotin replied -
+Thank you Lars.
+
+
+[09:12 AM]
+Richard Vorder Bruegge asked : Question for all... Some governments request visa and passport photos be taken without eye glasses...any thought that make up might be added to a 'restricted' list?
+
+1 upvote | 1 answer | 1 reply
+
+Patrick Grother answered -
+The difficulty I guess is in specifying how much makeup is too much? And then measurement. If the answer is 0, then it would become a political problem in some jurisdictions.
+
+Richard Vorder Bruegge replied -
+Yep - and then you have to also consider the fact that the user might be expecting to wear make up when the reference image is used for comparison... 'same to same'.
+
+
+[09:49 AM]
+Austin Park asked : @Mei In Slide 9, can you share which morph technologies did you use? Was data created by a specific one or was it by various technologies that you presented? 
+
+1 upvote | 1 answer | 0 reply
+
+Mei Lee Ngan answered -
+Austin - the morphing methods used in our tests are available in our report, accessible from https://pages.nist.gov/frvt/html/frvt_morph.html
+
+
+
+[09:56 AM]
+Takashi Shinzaki (Fujitsu) asked : I think that this is an important issue for an identity proofing.
+What are the obstacles to MAD technology development?
+Do we need a large database of Morphed images for learning? 
+Or is Morphing technology getting better and harder to detect artifact?
+
+1 upvote | 0 answer | 0 reply
+
+
+[10:01 AM]
+Yaw Chern asked : Mei,
+Usually the realistic input is a "printed and scanned" photo with low quality.
+Like, loss in dynamic range, contrast, textures and with artifacts.
+Moreover,
+Some artifacts of "Morph (malicious)" even contradicts the "folded paper or reflection on paper (innocent)
+How to cope with those issues?
+1 upvote | 0 answer | 0 reply
+
+
+[10:50 AM]
+Gert Jan de Nijs asked : @Christoph,
+I think that the goal (during enrollment process) is to take pictures under supervision by e.g. the government, where also liveness of the subject on the photo is guarenteed. Do you agree that live enrollment is just one of the solution to implement this and that there are more solutions
+1 upvote | 1 answer | 0 reply
+
+Christoph Busch answered -
+Specifically for the kiosk-based solution (with non-supervised capture devices) integrating presentation attack detection is essential and should be done. 
+
+
+[12:09 PM]
+Wenhui Lu asked : could you give more insight on how the system can be distributed?
+1 upvote | 0 answer | 0 reply
+
+
+[12:11 PM]
+Wenhui Lu asked : I meant if we have more than one PC, how to distribute the solution ?
+1 upvote | 3 answers | 3 replies
+
+Pawel Drozdowski answered -
+I suppose there is no reason this could not be distributed in similar manner to normal systems which are based on exhaustive-search. However, we only approached this from a academic perspective thus far
+
+Wenhui Lu replied -
+Thanks Pawel, have you done the ablation study, which part of the system contribute to the most of gain compared with prior?
+
+Pawel Drozdowski answered -
+We evaluated the impact of morph-pairing algorithm, used face recognition algorithm, used morphing algorithm, and system parameters. I have not included those results in the presentation for conciseness
+
+Wenhui Lu replied -
+Sounds really interesting, is it possible to get your slide? 
+
+Pawel Drozdowski answered -
+I think the slides/recordings will be made available after the conference; otherwise please get in touch with me via email.
+We are currently working on submitting an article describing our work
+
+Wenhui Lu replied -
+Thanks Pawel, really interesting work!
+
+
+[12:27 PM]
+Yaw Chern asked : Is quality assessment for IR facial images regulated?
+1 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+No
+
+
+[12:50 PM]
+Yevgeniy Sirotin asked : If algorithms are not using color - is there an intuition for why mask color affected FR algorithm performance?
+1 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+I think they are using color.  They're not dependent on it, or sensitive to it
+
+
+[12:55 PM]
+Paul Pelletier asked : Not a question - but well done sir!
+1 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+Thanks Paul.  It has been a long time!
+
+
+[12:56 PM]
+jean Salomon asked : Thanks a lot to all for a rich day!
+Stay safe.
+JS
+1 upvote | 0 answer | 0 reply
+
+
+[07:38 AM]
+Dan Bachenheimer asked : Is it safe to say that the influence of glasses on FR was not included?
+0 upvote | 1 answer | 0 reply
+
+Lars Ericson answered -
+The influence of glasses was not explicitly examined. There may be some incidental details in the published papers.  However, that would be a useful extension of this work.
+
+
+[09:13 AM]
+Steve Vlcan asked : @Christian - Did you ever evaluate the makeup PADs against the target celebrity images as well as the original subject?
+0 upvote | 1 answer | 0 reply
+
+Christian Rathgeb answered -
+Yes, comparing the makeup PAs against the target images was done in the vulnerability analysis. Comparing the makeup PAs against the original attacker images usually showed lower comparision scores but in many cases those would also result in an acceptance meaning thet the score would be above the threshold (FMR=0.1%). More details can be found in our preprint: https://arxiv.org/abs/2006.05074
+
+
+[09:17 AM]
+Quentin Revell asked : @ Richard VDB - Possible, to add to a "we prefer images with-out make-up", but difficult to enforce. Could be added to a list of reasons we can ask for an image to be re-submitted. 
+
+0 upvote | 0 answer | 0 reply
+
+
+[09:34 AM]
+John Campbell asked : Would the intra-class variability with GAN  images be different for different algorithms since different algorithms may focus on different discriminators. If so, would the GAN test database need to be tuned for each algorithm?
+
+0 upvote | 1 answer | 0 reply
+
+Stephane Gentric answered -
+yes
+
+
+[09:53 AM]
+Ilias Batskos asked : @Mei, regarding differential morph detection, have you checked your morphs with a regular FRS to see if they fool it in the first place before including them in the benchmark?
+
+0 upvote | 2 answers | 0 reply
+
+Patrick Grother answered -
+We have a track within FRVT MORPH for FR algorithms that claim to be resistant to morphs.
+
+Mei Lee Ngan answered -
+FRVT MORPH website: https://pages.nist.gov/frvt/html/frvt_morph.html
+
+
+
+[10:03 AM]
+Luís Felipe de Melo Nunes asked : @Mei, regarding morph threats, do you think that 3D models of faces may be vulnerable to morphing as well and compromise recognition in a similar way to color images?
+0 upvote | 0 answer | 0 reply
+
+
+[10:53 AM]
+Chris Dainty asked : Would you regard digitally signed photo booths, perhaps with liveliness detection etc,  as "live capture"?   
+0 upvote | 1 answer | 0 reply
+
+Christoph Busch answered -
+The new German passport law (likely - if the draft is not changed again) allows service providers (photographers) to transfer images to the application office. This is way better than the previous transfer with printed images - it is a live capture but in the strong sense not a live-enrolment, as you don't know in the internal processes of the service provider.
+
+
+[12:08 PM]
+Luís Felipe de Melo Nunes asked : @Pawel this idea is brilliant! Is the perfected study applied only on frontal images?
+0 upvote | 1 answer | 0 reply
+
+Pawel Drozdowski answered -
+Yes, images of relatively high quality are needed for morphs. Probes can be of somewhat lower quality
+
+
+[12:08 PM]
+Tom Ankers asked : Very interesting, this type of approach could drastically decrease the workload for large systems but also real-time/high demand.. have you run any tests with lower image quality ('wild')?
+
+0 upvote | 1 answer | 0 reply
+
+Pawel Drozdowski answered -
+We have not ran in-the-wild tests. Images of relatively high quality are needed for morphs. Probes can be of somewhat lower quality (e.g. e-gate)
+
+
+[12:12 PM]
+Kayee Hanaoka asked : From Wenhui Lu:
+could you give more insight on how the system can be distributed
+0 upvote | 1 answer | 0 reply
+
+Pawel Drozdowski answered -
+I suppose there is no reason this could not be distributed in similar manner to normal systems which are based on exhaustive-search. However, we only approached this from a academic perspective thus far
+
+
+[12:17 PM]
+Richard Vorder Bruegge asked : @Patrick G.  Can you please verify that this face quality metric is focused on automated system use of the image and does not explicitly address "human interpretability?"
+0 upvote | 0 answer | 0 reply
+
+
+[12:22 PM]
+martine lapere asked : Dear, wouldn't it be a good idea to add some MAD detection measures?
+
+0 upvote | 0 answer | 0 reply
+
+
+[12:34 PM]
+Ioan Buciu asked : What happens if the capture does not meet the standards ? Will the person be asked to enrol again or the deviation will be automatically corrected via software (for example imprecise frontal pose that could be adjusted by frontalization software - to some extent) ?
+0 upvote | 0 answer | 0 reply
+
+
+[12:35 PM]
+Yevgeniy Sirotin asked : Patrick, do you think that reporting on specific numerical metrics of broad and specific homogeneity effects more prominently as part of FRVT would be warranted for tracking they have mitigated these issues?
+0 upvote | 0 answer | 0 reply
+
+
+[12:38 PM]
+Wenhui Lu asked : About skin texture, scars, etc how do you think about the potential impact from heavy makeup? Higher resolution may be misled makeup?
+0 upvote | 0 answer | 0 reply
+
+
+[12:50 PM]
+Lora Sims asked : Is there anyway for people from this conference to provide feedback/comments on the draft ISO documents you presented on just now? if so, how?
+0 upvote | 0 answer | 0 reply
+
+
+[12:51 PM]
+Ilan Arnon asked : Has there been a consideration of creating such a scalar metric for unconstrained or wild images? Or is this unrealistic given the hugely wide variance in quality and hence need for much more robust  measurement algorithms.  
+0 upvote | 0 answer | 0 reply
+
+
+[12:53 PM]
+Richard Vorder Bruegge asked : @Ilan - My "NIIRS" suggestion is focused on addressing that problem - If we could perform a large scale "crowd sourcing" among experts to develop a NIIRS for face images, then we could provide a data set for researchers to analyze to develop more automated approaches.
+
+0 upvote | 0 answer | 0 reply
+
+
+
+Deleted Questions
+[06:30 AM]
+Joe attendee asked : test ?
+0 upvote | 1 answer | 0 reply
+
+Mei Lee Ngan answered -
+Got it
+
+
+

@@ -1,0 +1,762 @@
+EVENT NAME
+
+IFPC 2020
+
+EVENT DATE: WEDNESDAY, 28 OCTOBER, 2020 - 07:00 AM to 02:00 PM
+
+EVENT BY: AV SERVICES
+
+
+
+Posted Questions
+[07:39 AM]
+Johanna Morley asked : Are you considering demographic differential performance of humans as they review the output from an FR system (alert)
+11 upvotes | 4 answers | 3 replies
+
+Arun Vemury answered -
+In tests, yes we do.  The individuals self declare the race/ethnicity, gender, and age they identify with. 
+
+Johanna Morley replied -
+Thanks Arun, you mentioned testing the end to end system, including the 'human in the loop'. I was wondering if you are going to test (for want of a better term) bias in the response of the human reviewer?
+
+
+Arun Vemury answered -
+Yes this is a topic in which we're interested.  If you're interested in discussing more, please email our team at peoplescreening@hq.ds.gov
+
+Johanna Morley replied -
+Thank you, much appreciated. I will get in touch
+
+John Howard answered -
+Johanna, we are also talking about this at 10:25 time slot today.
+
+Johanna Morley replied -
+Great - thanks John. This is such an important topic (and currently under researched)
+
+Arun Vemury answered -
+Oh yes!  What John Howard said :)
+
+
+
+[08:53 AM]
+Richard Vorder Bruegge asked : There is a need to perform large scale tests of human beings to define image quality.  Humans' ability to perform matching tasks does not exactly parallel algorithms' ability to do matching.  As noted by Henri - different vendors report different image quality specific to their algorithm...
+8 upvotes | 0 answer | 0 reply
+
+
+[11:07 AM]
+Lora Sims asked : Were there any correlations in training/experience of the human examiners in increasing accuracy versus those who did not when fused with the algorithm? 
+7 upvotes | 0 answer | 0 reply
+
+
+[08:45 AM]
+Richard Vorder Bruegge asked : REF Morley-Vemury Q&A below, while human performance across demographics is important for research, there is also need to measure performance across different image types, not just visa, but social media, cctv, etc.  Image quality metrics may help define sets, but are far from perfect...
+5 upvotes | 1 answer | 0 reply
+
+Arun Vemury answered -
+Hi Richard.  I agree.  I think there's a lot work that needs to be done to understand how people perform these tasks 
+
+
+[10:00 AM]
+Megan Bradley asked : are there any plans to include face shields or potential glare between the subject and the camera using face shields or plastic barriers
+5 upvotes | 0 answer | 0 reply
+
+
+[12:09 PM]
+Richard Vorder Bruegge asked : The assumption here is that we must develop and use a single algorithm for all operational use cases.  In our 2012 paper which first identified the demographic problem, we (I) proposed a system which adapted based on the input (i.e., demographics of the probe). 
+5 upvotes | 2 answers | 1 reply
+
+Yevgeniy Sirotin answered -
+Let me know if our live answer did not address your point.
+
+Richard Vorder Bruegge replied -
+I will be in touch later.
+
+Yevgeniy Sirotin answered -
+Thank you.
+
+
+[07:59 AM]
+Richard Vorder Bruegge asked : Your slide says "Accuracy measured centrally on actual data captured."  How will you verify the ground truth for this measurement?  Biographic data or some other mechanism?
+
+4 upvotes | 1 answer | 0 reply
+
+Istvan Racz answered -
+As mentioned earlier, this is currently under internal research
+
+
+[08:51 AM]
+Christoph Busch asked : @Henri Claudot: ISO/IEC SC37 is working on standards on face image quality. Patrick will provide an overview tomorrow in the second session.
+4 upvotes | 0 answer | 0 reply
+
+
+[12:07 PM]
+Peter Hancock asked : I'm not clear what the 'problem' is here.  How would it be helpful if, for example, the algorithm throws up some female matches for men?
+4 upvotes | 4 answers | 1 reply
+
+Yevgeniy Sirotin answered -
+The issue is in performing matching against homogeneous galleries and the differences in likelihood of false match based on demographics for these algorithms.  Different innocent people may have a different hazard of matching to a homogeneous law enforcement gallery based on their demographics alone.
+
+Peter Hancock replied -
+So you are looking for a man and the algorithm throws up some women, and the investigators throw them out again. How does that help anyone?
+
+Yevgeniy Sirotin answered -
+The issue is when the algorithm identifies the wrong man.  In this case it will be very difficult for the human adjudicator to identify that it is a false match.  
+
+John Howard answered -
+Peter, we are arguing face algorithms should focus on face features that are not persistent within a demographic category.  Otherwise, yes all returned searches of demographic X will return individuals also of demographic X, which is harder for a human to parse.
+
+
+Yevgeniy Sirotin answered -
+In contrast, false matches made by an equally accurate iris algorithm would be far easier for a human to reject upon review.
+
+
+[12:17 PM]
+anonymous asked : How about fingerprint?
+4 upvotes | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+Unfortunately, we have not examined fingerprint in this context.
+
+
+[09:35 AM]
+Nicholas Orlans asked : With greater tolerance of algorithms to poor quality face images, do we think image/photo quality standards have become more of a human/forensic aesthetic than a conformance standard for FR systems/workflows? -- The combination of inter’op factors between systems and human verification capabilities 
+3 upvotes | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+Humans are often in a position to review these images so that quality as it relates with human perception matters in such systems.  With a lights-out process I suppose quality would only relate to algorithm needs.  We will touch on human-algorithm team performance in our talk at 10:25.
+
+
+[10:36 AM]
+Richard Vorder Bruegge asked : So the algorithm prior answer was reported as a binary "Match/non-match" versus a numerical score?
+3 upvotes | 1 answer | 1 reply
+
+John Howard answered -
+Yes Richard, prior identity information was presented to volunteers as "Same Person" or "Different People" in our study,
+
+
+Richard Vorder Bruegge replied -
+Thanks - it would ge great to do the same test on experts when given the match score (and an understanding of the algorithm's scoring system...)
+
+
+[11:36 AM]
+Will King asked : Have you measured any potential increase / decrease of an adjudicators ability based on ethnic variation between the adjudicator and dataset? 
+3 upvotes | 0 answer | 0 reply
+
+
+[12:27 PM]
+Pawel Drozdowski asked : Are your methods/metrics for evaluating demographic differentials/homogeneity publicly available? (i.e. the code)
+3 upvotes | 2 answers | 1 reply
+
+Yevgeniy Sirotin answered -
+We plan to contribute to standards development in this space.
+
+John Howard answered -
+But certainly the methods for our approach are available in our paper/presentation.  The exact code is likely specific to our datasets, which are not public.
+
+Pawel Drozdowski replied -
+In the context of the standard, it could be useful to develop such a toolkit, i.e. plug in comparison scores/decisions and demographic metadata, get output demographic differential/homogeneity assessment
+
+
+[08:10 AM]
+Greg Fiumara asked : Is there any interoperability with Interpol systems?
+2 upvotes | 1 answer | 0 reply
+
+Istvan Racz answered -
+The regulation allows but an agreement with Interpol still has to be made. It is in our plans.
+
+
+[08:10 AM]
+Michael Matyas asked : Can you provide any more information about investigating children's biometrics?  Who is investigating and when?
+
+2 upvotes | 1 answer | 0 reply
+
+Istvan Racz answered -
+We are not aware of this at eu-LISA for the moment
+
+
+[09:40 AM]
+Lars Ericson asked : @arun - This approach seems highly dependent on gallery size?  Have you investigated performance as a function of gallery size?
+2 upvotes | 1 answer | 0 reply
+
+Arun Ross answered -
+@lars: We are currently conducting experiments on other datasets. Once they are complete, we would be glad to share them with you. 
+
+
+[10:41 AM]
+Johanna Morley asked : Really interesting work. Did you
+(a) record performance across the different demographics in the test set
+(b) record the demographics of the volunteers who undertook the test
+(c) is there a correlation between performance of testers based on their demographic and/or demographic of test sets?
+2 upvotes | 1 answer | 0 reply
+
+John Howard answered -
+Thanks for your question.  Here is a link to the supplementary material for the study that includes a sections on accuracy across demographics:  https://figshare.com/articles/journal_contribution/S1_Appendix_-/12842688
+
+
+[10:43 AM]
+Johanna Morley asked : Can you clarify; if FR system reports same, then tester were biased towards saying same & vice versa?
+2 upvotes | 2 answers | 1 reply
+
+John Howard answered -
+Johanna, that is correct volunteers were biased in the direction of the prior identity information.
+
+
+Johanna Morley replied -
+Thanks - great piece of research. Is there anything more detailed that you can share?
+
+
+John Howard answered -
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237855#sec016 is the link for the paper
+
+
+[10:50 AM]
+Peter Hancock asked : Did you ask whether people believed the prior info?
+
+2 upvotes | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+We asked the trust question ahead of time.  People may have changed their opinion after completing the instrument, but unfortunately we did not repeat the question.
+
+
+[11:08 AM]
+Henri Claudot asked : What about the fusion of multiple algorithms? Weighing some of them depending on the context for instance.
+2 upvotes | 0 answer | 0 reply
+
+
+[11:16 AM]
+Mei Lee Ngan asked : From Arun Vemury - Given that we continue to see performance gains in algorithms since 2017, how should this scheme be updated as when algorithm continue to improve.
+
+2 upvotes | 1 answer | 0 reply
+
+Carina Hahn answered -
+Absolutely. With the algorithms we tested, you can see that error rates are nearly halving each year. It's a great point.
+
+
+[11:35 AM]
+Peter Hancock asked : @Jonathan how did you pick the triads?
+2 upvotes | 0 answer | 0 reply
+
+
+[11:37 AM]
+Peter Hancock asked : Where do other race effects come into all this? Item difficulty will differ with ethnicity of participant
+2 upvotes | 0 answer | 0 reply
+
+
+[11:59 AM]
+Pawel Drozdowski asked : John/Yevgeniy: Did you try to test a deep learning based iris recognition algorithm? 
+2 upvotes | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+No, but John will discuss what we may see depending on how this was developed.
+
+
+[12:10 PM]
+Stergios Papadakis asked : There was a talk at IJCB which studied the effect of skin tone on matching algorithms, and found ~ no effect. The implication is that there are other features of the face, correlated with race, that drive racial differences in performance.  Can you comment on the intersection of these results?
+2 upvotes | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+Stergios, we will discuss skin tone estimation in our talk on Thursday.  The paper, which I believe is from Kevin Bowyer's group examined specifically the effect of skin tone on FMR within specific demographic groups.  If that is the paper you mean then it examined specific, but not broad homogeneity.
+
+
+[12:11 PM]
+Richard Vorder Bruegge asked : Following up on Stergios - these demographic clustering effects may help distinguish members of a specific demographic from one another.  They may help identify features to leverage - not throw out.
+2 upvotes | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+Richard, please let us know if we did not adequately address your questions live.
+
+
+[12:28 PM]
+Richard Vorder Bruegge asked : Regarding fingerprints, I heard an anecdote that Asian women's finger prints had higher error rates in automated systems due - it was speculated - to the fact that their fingers are smaller and ridges are closer together (i.e., an image resolution problem?)
+2 upvotes | 2 answers | 1 reply
+
+Yevgeniy Sirotin answered -
+@Richard, would you suspect that Asian women's prints be more likely to match other Asian women as compared with say White Males or other groups?
+
+Richard Vorder Bruegge replied -
+Good question, but I have no idea...
+
+Yevgeniy Sirotin answered -
+Yes, we see this is not the case for iris, but we have not looked at fingerprint.
+
+
+[12:43 PM]
+Keivan Bahmani asked : Regarding Fingerprint. There is a distinct difference in the ridge/valley structure of male/female subjects. previous work used this feature for gender estimation. As a result, I believe any texture based matcher might be affected.
+2 upvotes | 0 answer | 0 reply
+
+
+[12:45 PM]
+Marek Rejman-Greene asked : Is the ranking of examiners and students in the same order for all tests
+
+2 upvotes | 1 answer | 0 reply
+
+Amy N. Yates answered -
+That is a good suggestion, and I'll have to look into it. If I remember correctly, there is a strong Spearman correlation between the matching tasks, but I would have to double check. Thank you!
+
+
+[08:06 AM]
+Paul Pelletier asked : Can you please reply wit the details the four colour coded outcomes? 
+1 upvote | 2 answers | 2 replies
+
+Istvan Racz answered -
+Is your question related to the multiple identity links?
+
+Paul Pelletier replied -
+yes
+
+Istvan Racz answered -
+Yellow link - potentially differing biographical identities on the same person
+ White link - confirmation that the different biographical identities belong to the same
+bona fide person
+ Green link - confirmation that different bona fide persons happen to share the same
+biographic identity
+ Red link - suspicion that different biographical identities are unlawfully used by the
+same person.
+
+Paul Pelletier replied -
+thank you
+
+
+
+[08:18 AM]
+Isabelle asked : EES question: Will a law enforcement search with a facial image only, require that national databases have been searched prior to an EES search?
+1 upvote | 1 answer | 0 reply
+
+Istvan Racz answered -
+No, unless national regulations require it 
+
+
+[08:19 AM]
+Richard Vorder Bruegge asked : Administrative question for moderators: How does one add a question to an existing Q&A thread? I don't want to ask a follow up in a separate box...
+
+1 upvote | 0 answer | 0 reply
+
+
+[08:35 AM]
+Luís Felipe de Melo Nunes asked : If a biometric data already exists in a database system, but other system need to register new data (for example there was only fingerprint and now a face image registration will be done), how the registration process will work exactly?
+1 upvote | 1 answer | 1 reply
+
+BSI Germany (Anna, Wied, Markus) answered -
+There is the concept of a "Handbook" laid down in the biometrics implemeting act of the EES regulation which is supposed to specify in detail the biometric update processes of the EES. It is currenty under development.
+
+Luís Felipe de Melo Nunes replied -
+Thank You!
+
+
+[09:12 AM]
+Lars Ericson asked : @patrickgrother Slide 17: Why does Europe (green)
+ seem to have the most errors?  Speculation?
+1 upvote | 0 answer | 0 reply
+
+
+[09:12 AM]
+Chris Chamberlin asked : Can you share the - Region values and rules used to determine these regions?
+1 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+Assignment of traveler document issuer into a geographic region.  India --> S. Asia for example.
+
+
+[09:19 AM]
+Richard Vorder Bruegge asked : Arun - Could we use familial relationship as one degree of similarity?
+1 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@richard: Yes, we could use these relationships to also select lookalikes (especially during training). We are currently conducting some experiments using the proposed method on twins and kinship relationships. We will be happy to share the findings Richard once they are available. 
+
+
+[09:25 AM]
+m asked : If a face had cosmetic surgery, could analysis recognize the face? lookalike? other?
+1 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@m: We haven't done this particular experiment on surgically modified faces. You make a good point, and we must consider this scenario in the future study,
+
+
+[09:25 AM]
+Luís Felipe de Melo Nunes asked : Can you repeat the name of the publication of the presented work? Thank you in advance.
+1 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@luis: T. Swearingen and A. Ross, “Lookalike Disambiguation: Improving Face Identification Performance at Top Ranks,” Proc. of 25th International Conference on Pattern Recognition (ICPR 2020), January 2021. 
+
+
+[09:32 AM]
+Armin Zoike asked : Could you specify in which sense you consider similarity not to be explicity used as optimization signal? In standard classification training in deep learning for each face image embedding a (cosine) similarity score is calcultated against all class embeddings in the dataset. 
+1 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@armin: Let's say we have 3 face identities A, B, and C. The perceptual similarity between A and B, A and C, and B and C, is not explicitly encoded during the training phase. The cosine similarity score (for example) is obtained *after* the embeddings are derived, but not used to produce the embeddings themselves. Hope this answers the question. Feel free to contact me at rossarun@cse.msu.edu.
+
+
+[09:41 AM]
+anonymous asked : On slide 30: Did the increase in identification accuracy also lead to an increase in false positives?
+1 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@anonymous: We did some open-set experiments (we did not show this in today's presentation). The false positives were actually reduced. We are trying to replicate open-set experiments on larger datasets. Please feel free to contact us at rossarun@cse.msu.edu for these results. We plan to complete these experiments within the next few weeks. 
+
+
+[09:42 AM]
+Christoph Busch asked : @Arun: What caused the fixed rerank curve to cross the original curve at higher ranks?
+1 upvote | 2 answers | 1 reply
+
+Arun Ross answered -
+@christoph: The fixed technique always chooses 246 gallery samples to re-rank (10% of the ranked match list). This resulted in some poorly matched samples to float upward since the lookalike disambiguator possibly did not train on these.  By choosing the "negative" sample in the triplet differently, we hope to improve performance of the fixed scheme also. 
+
+Christoph Busch replied -
+Thanks Arun. Very good work!
+
+Arun Ross answered -
+Thank you very much Christoph!
+
+
+[10:23 AM]
+anonymous asked : Hi Parick, 
+
+Paul Pelletier here.  What a great conference!  Kudos to you and your team.  Will the slides be available online to download by the attendees?
+1 upvote | 1 answer | 0 reply
+
+Mei Lee Ngan answered -
+Yes, presentations will be made publicly available online after the conference.
+
+
+[10:46 AM]
+Richard Vorder Bruegge asked : Any plans to add contextual info such as biographic data?
+
+1 upvote | 3 answers | 2 replies
+
+Yevgeniy Sirotin answered -
+I think there is a rich space of possible manipulations that can be constructed.  The most common may involve associated name, age, and gender such as found on travel documents.
+
+Yevgeniy Sirotin answered -
+We are considering follow-on work at this time.
+
+Richard Vorder Bruegge replied -
+Great - Some DHS employees who took my class brought this topic up... how to merge that type of contextual  biographic data into the decision...
+
+Richard Vorder Bruegge replied -
+I am very much interested in how this might feed into forensic face matching and standards of expert witness testimony.
+
+John Howard answered -
+Thanks Richard, in the conclusion of the paper we talk about the need for "orthogonal information" being provided to the human.  The Detroit case from this summer where tattoos were present on the probe image but not on the gallery match comes to mind, biographic information is another.
+
+
+
+[10:46 AM]
+Lars Ericson asked : Were all the presented images the same "quality" (e.g., resolution)?  Do you plan to repeat the experiments with variable resolution or illumination to gauge the level of cognitive bias on different types of imagery?
+1 upvote | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+Yes, all of the images were standardized.  The effect we saw with masks suggests when information is reduced, humans will rely more on the decision aid.  One caveat is whether they trust that decision aid.
+
+
+[11:14 AM]
+Keivan Bahmani asked : Did the team look at the effect of ethnicity on the fusion threshold with human examiners? especially since vgg face is affected by ethnicity.
+
+1 upvote | 2 answers | 0 reply
+
+Carina Hahn answered -
+We did not explicitly check for the effect of ethinicity. A great suggestion! The ability to do this is somewhat limited with this particular data given the facial comparisons were not specifically controlled for ethnicity. It's a great future direction/consideration.
+
+Yevgeniy Sirotin answered -
+Keivan, there are definitely effects associated with ethnicity on such tasks.  In our task, we augmented GFMT for this reason and observed an interaction between volunteer and face pair demographics.  You can look at SI in our paper.
+
+
+[11:55 AM]
+Christoph Busch asked : @Yevgeniy: Will this work be contributed to the new SC37 standardisation project ISO/IEC 19795-10 Biometric performance testing and reporting — Part 10: Quantifying biometric system performance variation across demographic groups?
+See: https://www.iso.org/standard/81223.html
+1 upvote | 1 answer | 1 reply
+
+Arun Vemury answered -
+Yes, we intend to provide technical contributions to this project.
+
+Christoph Busch replied -
+Thank you Arun.
+
+
+[12:05 PM]
+Keith Browning asked : Was breakdown of subject eye color analyzed?  Including eye color differences between demographic groups?  
+1 upvote | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+No we did not examine eye color, we focused on protected demographic groups for this work.  It is possible that iris would have differences there.
+
+
+[12:15 PM]
+Nnamdi Osia asked : Of the tested FR algorithms, were there algorithms that deal with the broad homogeneity problem "better" than others ?
+1 upvote | 4 answers | 1 reply
+
+Yevgeniy Sirotin answered -
+Yes, you can see some differences in our paper now at arXiv: https://arxiv.org/abs/2010.07979 
+
+
+John Howard answered -
+But in general, yes different algorithms had different levels of tail shift. 
+
+
+Patrick Grother answered -
+You can a related statement of broad homogeneity for many algorithms here: https://pages.nist.gov/frvt/reports/demographics/annexes/annex_08.pdf
+
+Yevgeniy Sirotin answered -
+Excellent point Patrick, you have demonstrated this broad homogeneity effect much more broadly.
+
+Nnamdi Osia replied -
+Thank you
+
+
+[12:16 PM]
+Pawel Drozdowski asked : There have been calls from various groups for a moratorium on face recognition (due to, among other issues, demographic differentials). What is your stance on this in light of your research?
+1 upvote | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+Our focus is on the science which we hope will allow others inform policy.
+
+
+[08:10 AM]
+Tom Ankers asked : Is there any initiative to move SBS to a common NIST container standard?
+0 upvote | 1 answer | 1 reply
+
+Istvan Racz answered -
+Only in a second step after the migration of all the core business systems to sBMS
+
+Tom Ankers replied -
+Excellent, thanks Istvan!
+
+
+[08:22 AM]
+Chris Zeinstra asked : @Michael Matyas Johannes Kotzerke
+
+0 upvote | 0 answer | 0 reply
+
+
+[08:33 AM]
+Ioan Buciu asked : How often should the EES be updated with new appearances of the same identity ?
+0 upvote | 1 answer | 1 reply
+
+BSI Germany (Anna, Wied, Markus) answered -
+There is the concept of a "Handbook" laid down in the biometrics implemeting act of the EES regulation which is supposed to specify in detail the biometric update processes of the EES. It is currenty under development. Member states and eu-LISA dicussing this topic in a biometric working group currently.
+
+Ioan Buciu replied -
+OK, thank you !
+
+
+[08:47 AM]
+Henri Claudot asked : Isn't face image quality dependent on the vendor ? Can a common standard be defined?
+0 upvote | 0 answer | 0 reply
+
+
+[09:14 AM]
+Quenin asked : Is there metadata on image quality, or document age? 
+
+0 upvote | 0 answer | 0 reply
+
+
+[09:29 AM]
+Mike French asked : Arun, was the impact of eyeglasses measured in close non-matches?
+0 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@mike: We did not measure the impact of eyeglasses in this particular study. 
+
+
+[09:35 AM]
+Mohsen Saffari asked : Could you please tell which features (or structure) have been used to find the match samples? 
+0 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@mohsen: We used the ArcFace Matcher. https://arxiv.org/pdf/1801.07698.pdf 
+
+
+[09:38 AM]
+Jacob Hasselgren asked : I may have missed this, but how did you determine 0.8 was the threshold for look-alike samples?
+0 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@jacob: We chose the threshold based on a pre-specified FMR. In this particular case, the pre-specified FMR was ~6.25%, but this number can be changed as needed. For example, to reduce training complexity, the FMR can be reduced to ~5% or even ~3%, provided there are a large number of lookalike pairs for training. 
+
+
+[09:41 AM]
+Lars Ericson asked : @arun - How does this compare to incorporating triplet probability embedding or hard negative mining explicitly in training the primary matching algorithm rather than having it be a second stage algorithm?
+0 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@lars: When triplets are used during the training of the primary algorithm, the algorithm "flounders" between learning discriminative features for distinguishing lookalikes and learning invariant features for clustering samples of the same identity. By "disentangling" the two (to a moderate degree), more pertinent features can be extracted in each stage.      
+
+
+[09:41 AM]
+Mohsen Saffari asked : Does the algorithm consume too much time? because comparing a probe image with all gallery images may takes too much time.
+0 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@mohsen: the training stage is off-line, so it does not impact real-time response time. The re-ranking using the lookalike disambiguator (during real-time) has very limited overhead, since the number of items to be re-ranked by the adaptive scheme is drastically reduced. 
+
+
+[09:42 AM]
+Michael Matyas asked : How often are siblings (except identical twins) seen as look-alike pairs?  How effective is adaptive disambiguation in separating siblings?
+0 upvote | 1 answer | 1 reply
+
+Arun Ross answered -
+@michael: We are currently conducting experiments with twins, siblings and kinship relationships. We would be happy to share the results with you once they are available. Please feel free to contact me at rossarun@cse.msu.edu. 
+
+Michael Matyas replied -
+thank you.  
+
+
+[09:42 AM]
+martine lapere asked : given a 7% of look alike. It means for a large db like Yes 200 * 10^6 entries, we would have a look alike list in the order of 10 ^5 meaning not possible to operate on single modality n-best list.
+?
+0 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@martine: We can select fewer percentage of imposter pairs as lookalikes. The lookalikes are a function of the score threshold used; a stricter threshold can be used to reduce the number of lookalikes used for training the lookalike disambiguator. 
+
+
+[09:43 AM]
+Jacob Hasselgren asked : Could you provide more details on what occurs if multiple images of the same person are present in the gallery?
+0 upvote | 1 answer | 0 reply
+
+Arun Ross answered -
+@jacob: In such cases, when computing the value of "c" (during the analysis stage), we choose the gallery sample (for a given probe) that occurs at the best rank.  
+
+
+[09:47 AM]
+Austin Park asked : @Mei Could you elaborate why 1:1 algorithms was evaluated but not 1:N algorithms?  Is there a timeline 1:N algorithms evaluated as part of masked faces?
+0 upvote | 0 answer | 0 reply
+
+
+[09:58 AM]
+Luís Felipe de Melo Nunes asked : @Mei are there any reports of databases elaborated with real face mask images?
+0 upvote | 0 answer | 0 reply
+
+
+[09:59 AM]
+Armin Zoike asked : @Mei: Do you use any standards for the definition of the extent or area of  the periocular region at NIST? 
+
+0 upvote | 0 answer | 0 reply
+
+
+[10:43 AM]
+james wayman asked : Are results dependent upon ratio and perception of ratio by volunteer of mated to non-mated pairs presented?
+0 upvote | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+We did not examine this explicitly and the volunteers were not told or had any past experience going in.  Speculatively, the balance could affect performance significantly as well as trust in the decision aid.
+
+
+[10:45 AM]
+KC Pfiffner asked : What is the name of the current presenter?  I would like to look at their power point again after the conference
+
+0 upvote | 2 answers | 1 reply
+
+John Howard answered -
+Yevgeniy Sirotin.  Here is the paper: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237855#sec016
+
+
+John Howard answered -
+Yevgeniy Sirotin.  Paper can be found here: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237855#sec016
+
+KC Pfiffner replied -
+Thank you
+
+
+[11:03 AM]
+Jerry Tipton asked : Did any algorithm label two imposter pairs as matching or was that kind of error only done by humans?
+0 upvote | 1 answer | 0 reply
+
+John Howard answered -
+You said the algorithm only made 1 error? So am I to understand the optimal fusion scheme was then fusing the algorithm with all the humans who got judged that face pair correctly?
+
+
+
+[11:09 AM]
+Quenin asked : How did the examiners express their judgement? 
+A numerical scale?
+0 upvote | 1 answer | 1 reply
+
+Amy N. Yates answered -
+Yes they were given a 7-point scale to use for responses
+
+Quenin replied -
+OK thanks. 
+
+
+
+[11:11 AM]
+Zszsanna Bartha asked : Do you plan to test fusion efficiency on more challenging image types, eg. images of children?
+0 upvote | 0 answer | 0 reply
+
+
+[11:28 AM]
+Richard Vorder Bruegge asked : I'm confused...Shouldn't Beta be considered the item easiness? Is a higher Beta indicative of a more difficult item or an easier item?
+0 upvote | 3 answers | 1 reply
+
+Amy N. Yates answered -
+higher Beta = harder item
+
+Richard Vorder Bruegge replied -
+But the vertical axis refers to accuracy, doesn't it (on the line charts...)?  
+
+Amy N. Yates answered -
+On the first graph with the S-curves for items and participants, the y-axis is just index. On the second graph for the two items, the y-axis is probability of an average user responding correctly
+
+Amy N. Yates answered -
+In the first graph, the x-axis is both item difficulty and subject ability, which as Jonathon noted, is on the same scale
+
+
+[12:00 PM]
+Pawel Drozdowski asked : John/Yevgeniy: Could the lack of the discussed demographic effects in iris recognition based on Daugman algorithm be due to it being handcrafted w.r.t. very specific anatomic features, whereas the vast majority of SOTA face recognition systems nowadays are based on training deep neural networks?
+0 upvote | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+John will touch on this in a few slides.  Follow-up if your question is not answered.
+
+
+[12:12 PM]
+Keivan Bahmani asked : have you tested the effectiveness of any of the open source models design to remove specific attributes like gender, ethnicity ?. I am referring to models such as sensitivenet that do this during training and not selectively remove features. 
+0 upvote | 2 answers | 2 replies
+
+Yevgeniy Sirotin answered -
+Thank you for that question.  We have started looking at some open source algorithms, but not this one specifically.  This is a good future research direction.
+
+John Howard answered -
+Perhaps in collaboration with CITeR.
+
+Keivan Bahmani replied -
+I am working on possibly incorporating them with our skin model. but this is also a very interesting use case. 
+
+Keivan Bahmani replied -
+Morales, Aythami, Julian Fierrez, and Ruben Vera-Rodriguez. "SensitiveNets: Learning agnostic representations with application to face recognition." arXiv preprint arXiv:1902.00334 (2019).
+
+
+[12:16 PM]
+Catherine Tilton asked : Could the difference between iris and face also be related to the nature of how the features come to be - more random with iris and more anthropological with face?
+0 upvote | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+Certainly, but as they also correspond with protected groups, we must carefully consider how such correlations should be treated.
+
+
+[12:38 PM]
+Terry Riopka asked : @Yevgeniy Gender seems different because there may be other potential cues unrelated to face morphology. Race differences however, are correlated with morphological differences that affect appearance. Why would you want a recognition algorithm agnostic to those differences? 
+0 upvote | 2 answers | 0 reply
+
+John Howard answered -
+Thanks Terry, I think there are morphological and non-morphological differences in both gender and race.  Algorithms that are agnostic to differences that are morphologically consistent within class could return more fair results in large identification searches.
+
+
+Yevgeniy Sirotin answered -
+Terry, we are not suggesting that one algorithm is preferable in all settings.  However, to the extent that gender and race are both protected groups, we must consider implications of the technology on the likelihood that individuals of different protected groups are likely to match a homogeneous gallery, such as others have suggested may be used by law enforcement.
+
+
+
+Not Posted (Declined) Questions
+[06:48 AM]
+anonymous asked : Will there be video recordings available after the conference?
+0 upvote | 0 answer | 0 reply
+
+
+[07:27 AM]
+anonymous asked : I will ask the question that is bound to be asked... will slide decks be made available to all attendees?
+0 upvote | 0 answer | 0 reply
+
+

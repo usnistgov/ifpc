@@ -1,0 +1,982 @@
+EVENT NAME
+
+IFPC 2020
+
+EVENT DATE: THURSDAY, 29 OCTOBER, 2020 - 07:00 AM to 02:00 PM
+
+EVENT BY: AV SERVICES
+
+
+
+Posted Questions
+[07:47 AM]
+Yevgeniy Sirotin asked : Are you aware of any standard statistical visualization packages tailored to working with biometric data?  A standard package would help standardize the visualization of biometric information among researchers.
+7 upvotes | 1 answer | 0 reply
+
+Ted Dunstone answered -
+Great question and observation. We have designed that Performix to be such platform. We have a free version will be released before the end of the year. Please send me an email (ted@biometix.com) if you (or anyone else) interested in a demo or more details.  
+
+
+[08:20 AM]
+anonymous asked : Did the people that used the service know (and give an informed consent) that their image would be used to generate your model?
+7 upvotes | 2 answers | 0 reply
+
+Kevin Hill answered -
+..
+
+Martins Bruveris answered -
+Yes. As part of the identity verification process the user is presented with a privacy notice, which explains how their data is used, including that their data can be used for product improvements and how they can opt out of it.
+
+
+[09:11 AM]
+james wayman asked : i already love this talk!
+7 upvotes | 0 answer | 0 reply
+
+
+[10:40 AM]
+Tom Ankers asked : Out of 27 engaged, 10 identities were confirmed as true match - for the other 17, were these counted as false matches or just unconfirmed (not checked by officer)?
+7 upvotes | 1 answer | 0 reply
+
+Tony Mansfield answered -
+If not confirmed as true match (eg by check against photo ID) by they were counted as false matches.
+
+
+[08:35 AM]
+Han asked : Looks like Africa is listed as a country (alongside Nigeria and S.Africa); could you let us know which country were you referring to there? Would also be interested in hearing your thoughts about selecting S.Africa as an example, given multiracial populations.
+6 upvotes | 1 answer | 0 reply
+
+Martins Bruveris answered -
+In this case Africa refers to all other African countries together. We split off a couple of countries on which we had more data available and grouped the remaining ones as one group. The more accurate name would be Africa (remainder).
+
+
+[10:46 AM]
+John J. Howard asked : Johanna, 17 of 27 face recognition alerts were not confirmed.  Does this mean there was a 2/3 false positive identification rate *for the algorithm* on a gallery of ~2400 or is something else happening? 
+6 upvotes | 4 answers | 2 replies
+
+Johanna Morley answered -
+Hi John, the False Positive Identification Rate is proportionate to the number of recognition opportunities and, depending on environmental conditions etc. was measured at between 0.01 and 0.1%
+
+Tony Mansfield answered -
+No FPIR is 17 ( number alse alerts) divided by the number identification opportunities of the crowd (- small number for the number in the crowd who were in the watchlist)
+
+John J. Howard replied -
+Thanks both, I see why FPIR was the wrong metric to put there.  What I was thinking of is the precision of the algorithm is only 1/3 in this case.
+
+Yevgeniy Sirotin answered -
+This is very interesting, could precision be a better metric for potential differential outcome in this setting rather than FPIR.
+
+John J. Howard replied -
+Particularly since precision doesn't have a biometric equivalent in the standards, whereas recall is true match rate for example.
+
+Johanna Morley answered -
+Interesting concepts. it would be good to discuss further off line but this emphasis the need to work to agreed standards (ISO standards)
+
+
+[11:55 AM]
+Richard Vorder Bruegge asked : Rather than validate that the algorithms is operational, why not simply identify them as operational or "research"?
+
+6 upvotes | 1 answer | 0 reply
+
+Brendan Klare answered -
+I think this would be a great start. If proceeding with this route, then any "operational" algortihm would also need to state the specific software version it corresponds to
+
+
+[08:39 AM]
+james wayman asked : Are you measuring differences country demographic diversity or differences in document issuance processes?
+
+5 upvotes | 1 answer | 0 reply
+
+Martins Bruveris answered -
+No, we are not. We are not making any statements about the source of performance differentials. One could make the argument that from a user point of view the source does not matter if it is beyond the user's control. If I live in a country that issues document of bad quality, I still expect remote identity verification to work on me as it does on the people in the neighboring country with better documents.
+
+
+[10:42 AM]
+Richard Vorder Bruegge asked : Johanna, had all officers who engaged subjects on the street taken some facial comparison training?
+5 upvotes | 0 answer | 0 reply
+
+
+[11:55 AM]
+Johanna Morley asked : Statement: Completely agree with FRVT wish list re NIST tested algorithm and COTS available version
+
+5 upvotes | 1 answer | 0 reply
+
+Brendan Klare answered -
+Thanks, Johanna. It is a tricky one to figure out and I think Richard's idea is a good start (vendors attesting to whether an algortihm is operational or just R&D,and if operational which version number it corresponds to)
+
+
+[07:36 AM]
+Christoph Busch asked : Do you measure the pitch angle? If yes - do you provide actionable feedback, if the angle is for instance larger than 20 degree?
+4 upvotes | 1 answer | 0 reply
+
+Bill Perry answered -
+We measured the pitch angle on device and provide feedback. However, we are finding more detailed instructions are needed.
+
+
+[07:46 AM]
+Janine Zancanaro da Silva asked : How the passive authentication of the liveness of the portrait is done?
+4 upvotes | 1 answer | 0 reply
+
+Bill Perry answered -
+We perform passive liveness on devie and with back end systems too.
+
+
+[08:04 AM]
+Dan Bachenheimer (Accenture) asked : Ted - where are the plots of mask deniers versus COVID infected?
+
+4 upvotes | 1 answer | 0 reply
+
+Ted Dunstone answered -
+That'd be pretty much the whole crowd :-)
+
+
+[09:03 AM]
+Yevgeniy Sirotin asked : How will you guide a reviewer comparing two equal match scores with different confidence intervals (e.g. 0.8 (0.6 - 1.0) vs. 0.8 (0.79 - 0.81)?
+4 upvotes | 1 answer | 0 reply
+
+Mosalam Ebrahimi answered -
+Yevgeniy, I'd like to discuss this in length with you if/when you have the time. I will email you to find a time that works for you, if that's ok?
+
+
+[09:28 AM]
+Richard Gauthier asked : To analyze race bias in a dataset  where race group  is not available can nationality be used as a proxy with some limitations or would it be better to use race detection software?
+4 upvotes | 0 answer | 0 reply
+
+
+[12:21 PM]
+Quentin Revell asked : Agree with the need to get some tractability from NIST evaluation into Products (Interested to hear your ideas Patrick) - but we (as customers) shouldn't abdicate our responsibility in ownership / operation of the algorithm.
+4 upvotes | 2 answers | 1 reply
+
+Brendan Klare answered -
+Exellent point! At the end of the day, the end-user / customer has to perform their own independent evaluations. It would help, though, in down select processes to know the algortihm being tested directly corresponds to an FRVT algortihm submission.
+
+Yevgeniy Sirotin answered -
+Brendan, how can third parties performing testing validate that a commercial algorithm is the same as one that was tested?  With the Rallies, we ask that the product can be acquired.
+
+Quentin Revell replied -
+Agree (and we did) - We still ran a competitive evaluation as part of a procurement.
+
+
+[08:24 AM]
+Tiago de Freitas Pereira asked : In your FMR and FMNR plots, how the decision thresholds were picked?
+3 upvotes | 1 answer | 0 reply
+
+Martins Bruveris answered -
+The decision threshold is picked to give an overall FAR of 10^-5 (for the matrix plots). For the ROC curves we plot the overall FAR on the x-axis. The overall FAR is used to determine the threshold, which is then used to calculate the metric on the y-axis.
+
+
+[08:29 AM]
+Taro asked : Have you tried training from scratch instead of fine-tuning pretrained model with MS-Celeb-1?
+3 upvotes | 2 answers | 1 reply
+
+Martins Bruveris answered -
+Yes, we have. Given the bi-sample nature of our data we have so far not managed to train a model from scratch to the same level of performance. It seems that the model has difficulties learning the possible variations if the variations are spread out across identities.
+
+Taro replied -
+I read that training from scratch is better than fine-tuning when using semi-siamese network, so I was wondering about it. Thank you so much for your answer and great presentation! 
+
+Martins Bruveris answered -
+I was really hopeful about the semi-siamese approach. I tried training from scratch with a semi-siamese network. Both with triplet loss as well as softmax loss. So far it hasn't worked.
+
+
+[09:34 AM]
+Richard Vorder Bruegge asked : Face is not the only biometric that will show such differences (maybe not finger and iris, of course) but think about speaker recognition!
+3 upvotes | 0 answer | 0 reply
+
+
+[10:10 AM]
+John Campbell asked : For a facial recognition algorithm, is it not the skin colour space in the captured photo that is more important than the calibrated skin colour space of the individual?
+Also, with dynamic lighting from an intelligent capture system, should it nor be possible to minimize differences in skin colour?
+
+3 upvotes | 0 answer | 0 reply
+
+
+[10:36 AM]
+Yevgeniy Sirotin asked : Can you comment on what types of non-face information the officer will use?  Do they perform a photo-ID check?
+3 upvotes | 0 answer | 0 reply
+
+
+[10:44 AM]
+Yevgeniy Sirotin asked : With respect to human algorithm teaming - can you comment on how likely officers are to reject an algorithm false match based on their own face review as compared with non-face information?
+3 upvotes | 1 answer | 0 reply
+
+Johanna Morley answered -
+Very good question and in general and not just in respect to this use case, with officers is an area that would benefit from more research
+
+
+[10:47 AM]
+Richard Vorder Bruegge asked : ...and to be more specific - how many of the 27 stopped individuals would the 'experts' have stopped and have you saved that data for further training of individuals?
+3 upvotes | 1 answer | 0 reply
+
+Johanna Morley answered -
+Date collected under operational conditions i subject to a defined (short) retention period, so it has not been retained. Difficult to say how many would have been stopped by experts, taking into consideration that they would have a limited period of time to make a decision
+
+
+[11:16 AM]
+Richard Vorder Bruegge asked : When discussing "equity" of models, we need to take great care to consider at what level of resolution are things considered "equitable"?  The delta between 1-in-1M error vs. 1-in-10M is the same order of magnitude as 1-in-10 vs. 1-in-100... What is going to be considered "good enough?"
+3 upvotes | 0 answer | 0 reply
+
+
+[12:01 PM]
+Yevgeniy Sirotin asked : Regarding evaluations of commercial systems, this is the goal for DHS S&T Biometric Technology Rally testing by MdTF.  Is there additional testing that would be helpful in this context?
+3 upvotes | 3 answers | 0 reply
+
+Brendan Klare answered -
+How do you know you are getting their commercially avaiable solution? It could be a one-off algorithm designed to shine in a particular benchmarking scenario. Hopefully not, but it is not clear what prevents that
+
+Yevgeniy Sirotin answered -
+Brendan, given rapid development of new models and tweaking of models for specific use-cases, how do you recommend third parties performing testing to be able to validate that a commercial algorithm is the same as one that was tested?
+
+Brendan Klare answered -
+That's for you guys to figure out :) The best I can think of is some form of digital signing, though that might not work w.r.t. patches and bug fixes. I think initially it could just be a vendor assertion (per RVB's idea) where they state if the algorithm is operational or not, and  if so state what software version it corresponds to
+
+
+[12:10 PM]
+Yevgeniy Sirotin asked : Were you able to examine what type of real mask was most problematic?
+3 upvotes | 2 answers | 0 reply
+
+Bhargav Avasarala answered -
+we weren't able to separate out by exact mask type, but that's a great question and definitely something to look at. the goal here was mainly to try and replicate real conditions where you may not know what type of masks an individual would be wearing
+
+Patrick Grother answered -
+Lacking patterned masks currently we thought it important to see if FMR at a fixed threshold increases in that case. 
+
+
+[12:17 PM]
+Jacob Hasselgren asked : Was there any control to the types of masks that were captured? (i.e. did you give them masks or did you just capture the mask that they brought with them?)
+3 upvotes | 1 answer | 0 reply
+
+Bhargav Avasarala answered -
+we generally asked for either a medical mask (the standard light blue mask), or a cloth color of their choice, but didn't go beyond that
+
+
+[01:03 PM]
+Jacob Hasselgren asked : @patrick You did say these talks would be posted?
+3 upvotes | 0 answer | 0 reply
+
+
+[08:09 AM]
+Dmitry GORODNICHY asked : Is Australian government using  it.?
+
+2 upvotes | 1 answer | 0 reply
+
+Ted Dunstone answered -
+Yes - we are using it with a few different governement project in Australia and elsewhere
+
+
+[08:23 AM]
+Shalini Yadav asked : As dataset is not available publicly for Selfie-ID matching.  Can you please guide how to collect data? what measures need to consider?
+2 upvotes | 1 answer | 0 reply
+
+Martins Bruveris answered -
+The data was collected as part of providing Onfido's products. As such it belongs to the clients and Onfido is given permission to use it for product improvements.
+
+
+[09:09 AM]
+james wayman asked : Our confidence is about the score, not the match decision.  The confidence of the match decision can never be known.
+2 upvotes | 2 answers | 2 replies
+
+Yevgeniy Sirotin answered -
+What does it mean to have a high score with low confidence?  What does that say in words?  These people are extremely similar but we are not sure about that assessment?
+
+james wayman replied -
+In biometrics, we can know the PDF for scores given truth state. But this PDF does not invert to reveal PDF of truth state given score. 
+
+
+Mosalam Ebrahimi answered -
+James, I'd love to discuss this with you further if you have the time. Could you please let me know your email address or email me at mosalam@trueface.ai
+
+james wayman replied -
+James.wayman@obim.dhs.gov
+
+
+[09:25 AM]
+Megan Frisella asked : The 2011 DCNN seems to have similar performance on Asian and Caucasian faces, do you have any insight on why this is the case when performance seems to become more disparate in later models?
+2 upvotes | 0 answer | 0 reply
+
+
+[09:33 AM]
+Richard Vorder Bruegge asked : Advances in technology, Yevgeniy?  It is probably a DATA problem - look at Martin's work - hardly any Asia or Africa data.
+2 upvotes | 0 answer | 0 reply
+
+
+[09:33 AM]
+anonymous asked : Is it possible to somehow fuse two biased models/systems to achieve an unbiased one? Are you aware of such research?
+2 upvotes | 0 answer | 0 reply
+
+
+[09:34 AM]
+Dan Bachenheimer (Accenture) asked : If you are using facial image QUALITY as an equalizer; how do you ensure that your quality assessment algorithm is not effected by demographic differentials?
+2 upvotes | 0 answer | 0 reply
+
+
+[09:41 AM]
+Richard Vorder Bruegge asked : In other words, is there lower dynamic range in darker skin faces?
+2 upvotes | 3 answers | 0 reply
+
+Patrick Grother answered -
+I don't know of data.  We could measure it empirically in mugshots and then lesser images.
+
+Arun Vemury answered -
+I think John an Yevgeniy may touch upon this in this brief.
+
+Yevgeniy Sirotin answered -
+An imaging system may miss the "good" range for a person depending on gain: wash-out vs. under-exposure.
+
+
+[09:51 AM]
+Richard Vorder Bruegge asked : Is self-reporting  of race perfect?
+2 upvotes | 1 answer | 0 reply
+
+John J. Howard answered -
+Thanks Richard, likely not.  We should add this to our slides as another reason to move toward phenotypes.
+
+
+[10:09 AM]
+Ioan Buciu asked : Color info is not reliable for low light (as may happen in real life uncontrolled conditions - surveillance, etc). Question: how robust are these models against this issue ?
+2 upvotes | 0 answer | 0 reply
+
+
+[10:45 AM]
+Eilidh Noyes asked : You mentioned that the alert goes to both the officers on the ground & van, but that the decision is made by officers on ground. Do the officers who are in the van also make a comparison at any point in the process? And if so, do they communicate this to the officers on the ground?
+2 upvotes | 1 answer | 0 reply
+
+Johanna Morley answered -
+Both sets of officers can assess and make a decision
+
+
+[10:56 AM]
+Ilan Arnon asked : On what kind of mobile device did the officers receive the alert? What was delay in receiving the alert from tithe time of appearance?
+2 upvotes | 1 answer | 1 reply
+
+Johanna Morley answered -
+Mobile phone with appropriate security wrap round, directly connect to the FR system. There is about 5 - 10 sec latency between alert & device
+
+Ilan Arnon replied -
+thanks
+
+
+[11:52 AM]
+anonymous asked : Is there a a typo on first bullet on slide 17
+
+2 upvotes | 3 answers | 1 reply
+
+Brendan Klare answered -
+I don't think so, though it should probably say "real-time video" instead of "video"
+
+Brendan Klare answered -
+I see now... This should be changed from "High template generation speed" to "Slow tempate generation speed". It is effectively the same thing, but it is confusing when I say "High"
+
+anonymous replied -
+There are several other places where I saw the same ambiguity.  I enjoyed the talk.
+
+Brendan Klare answered -
+Thanks! I'll clean this up for the blog version
+
+
+[11:58 AM]
+Richard Vorder Bruegge asked : To expand on that - FRVT has "supercharged" development of new algorithms. Requiring that algorithms only be "operational" could reduce research efforts.
+2 upvotes | 3 answers | 1 reply
+
+Johanna Morley answered -
+Hi Richard - don't want to stifle research but do need to know if the NIST tested version is the one that is available in COTS product
+
+Richard Vorder Bruegge replied -
+Yes, of course, but restricting submission to *only* deployable solutions would limit the number of algorithms tested - consider the academics, alone!
+
+Patrick Grother answered -
+We have ideas on solving this traceability of prototypes at NIST to deployment.
+
+Brendan Klare answered -
+I dont think they should only be operational. My main point is that if an algorithm is submitted by a vendor who deploys operational systems, then they should correspond to a specific algortihm version so the end-user knows that which FRVT benchmark corresponds to the algortihm they are using operationally
+
+
+[11:59 AM]
+John J. Howard asked : Amazon's position is that they cannot submit to FRVT because their web API is not compatible with the FRVT submission model.  In your opinion is there really a technical barrier to them submitting?
+2 upvotes | 1 answer | 0 reply
+
+Brendan Klare answered -
+Every other vendor, including MSFT, has solved this problem. AMZN is worth over a trillion dollars, and I think if they believe in the value of sequestered, 3rd party benchmarking, then they would easily solve this problem. Otherwise, is it expected for NIST to upload their sequestered test sets onto Amazon's servers (thus making the sets no longer sequestered)?
+
+
+[12:00 PM]
+Quentin Revell asked : Have you looked at the Time to insert a new record into a large dB (while still accessing the dB), its a factor as dB size grows into the 100m's of records.
+2 upvotes | 2 answers | 1 reply
+
+Brendan Klare answered -
+This certainly does matter, though it could be more of an integration consdieration depending on an algortihm's API. There would similarly be an API challenge for FRVT to test this, but I think it would be interesting to measure the impact inserations and deletions have on large databases
+
+Patrick Grother answered -
+Our 1:N API does support these operations. There's a longer discussion here Quentin.
+
+Quentin Revell replied -
+There always is Patrick - Scaling is something many systems are running into as we're looking at larger dB. The EU database on Tuesday was 2-300 million people. It's also counter to the perception that facial comparison is "simple" compared to FP.    
+
+
+[12:48 PM]
+james wayman asked : 37.03.26
+comparison decision
+determination of whether the biometric probe(s) (37.03.14) and biometric reference(s) (37.03.16) have the same biometric (37.01.01) source, based on a comparison score(s) (37.03.27), a decision policy(ies) including a threshold (37.03.36), and possibly other inputs 
+2 upvotes | 0 answer | 0 reply
+
+
+[01:07 PM]
+Raul Sanchez-REillo asked : in-person allows internetworking. Virtual allows many more people to access the contents. So hybrid could be nice
+
+2 upvotes | 0 answer | 0 reply
+
+
+[07:36 AM]
+Tracy Minter asked : Does this work across phones - can you find your existing visa if you get a new phone?
+1 upvote | 1 answer | 0 reply
+
+Bill Perry answered -
+Yes, you can. I dont have the full detail on me .
+
+
+[07:47 AM]
+Kerry T Shannon asked : Bill, Great presentation. The EU Commission (Richard Renken) in Belgium is looking to create a similar capability to the ETA app, but focused more on passenger onboarding/processing with linkages to FRONTEX/eu-LISA, etc...
+1 upvote | 1 answer | 0 reply
+
+Bill Perry answered -
+Hi Kerry, thats really interesting. I'll see if we are already in contact with Richard. Cheers.
+
+
+[08:24 AM]
+anonymous asked : Is your dataset publicly available after the publication of your work?
+1 upvote | 2 answers | 2 replies
+
+Patrick Grother answered -
+The speaker has published on this previously.   https://arxiv.org/abs/2002.12093 
+
+
+anonymous replied -
+Respected Sir,
+ Is dataset is publicly available?
+
+
+anonymous replied -
+Ok sir I got the answer.
+Thank you
+
+Martins Bruveris answered -
+No, we don't have the permission to make the images available. We are open to collaborations with researchers however.
+
+
+[08:30 AM]
+Yevgeniy Sirotin asked : Question about tradeoff between FMR and FNMR, is the same threshold being used for different models?
+1 upvote | 2 answers | 0 reply
+
+Patrick Grother answered -
+I've always assumed diff algs have diff thresholds.  
+
+Martins Bruveris answered -
+Different algorithms have different thresholds. The constant number is the overall FAR, which is used to determine the threshold.
+
+
+[08:38 AM]
+Megan Frisella asked : What are your thoughts on the gender classifier introducing additional representation bias based on the data it was trained on? How would you incorporate this into your diagnosis of the overall system's bias?
+1 upvote | 1 answer | 0 reply
+
+Martins Bruveris answered -
+I am not advocating using a gender classifier in this way in an actual face recognition system. You are right, this will introduce other bias problems. This was just a thought experiment, how a uniformly unbiased model together with a classifier can be used to create a slightly better model with a diagonal structure.
+
+
+[08:55 AM]
+Yevgeniy Sirotin asked : In your experience, do face recognition models take color information into account as you demonstrate for animal classifier models with your albino examples?
+1 upvote | 0 answer | 0 reply
+
+
+[09:31 AM]
+Yevgeniy Sirotin asked : As you point out, demographic effects in face recognition have long been known.  Can you speculate about the reasons why these issues have not been mitigated with advances of the technology?
+1 upvote | 0 answer | 0 reply
+
+
+[09:36 AM]
+Tony Lo Brutto asked : statistical differences for researcher are classified as bias by some. What performance results would be accepted as equal performance across the races. And isn't the real issue the performance difference between humans and machines
+
+1 upvote | 0 answer | 0 reply
+
+
+[09:41 AM]
+Dmitry GORODNICHY asked : Would that be correct to say that bias (variation) is more consistent across vendors - in FMR, However it is not as consistent in FnMR? (I.e some product can favour males, whereas others favour females in fnmr, but for FMR all products will favour the same group)? 
+1 upvote | 0 answer | 0 reply
+
+
+[09:55 AM]
+Quentin Revell asked : @Richard - what classification of "Race" is - in the UK we have a choice of lists the Police IC1 to 6 + ICx, or a 19 ethnicity point scale from our ONS. 
+
+1 upvote | 0 answer | 0 reply
+
+
+[10:06 AM]
+Markku Metsämäki asked : Have you measured color differences between individuals in terms of all three CIELAB color-space parameters?
+1 upvote | 1 answer | 0 reply
+
+Yevgeniy Sirotin answered -
+There is a reference in our slides for ITA that should help you get the information.  I believe those slides will be shared after the conference.
+
+
+[10:13 AM]
+Richard Vorder Bruegge asked : Persistence of skin color over time is also a problem... how stable is the skin color over time?
+1 upvote | 3 answers | 1 reply
+
+Yevgeniy Sirotin answered -
+We have only started being able to look at this in our data.  I suspect the differences will be far smaller than a two-fold variation we see across cameras.
+
+John J. Howard answered -
+Good point Richard, agreed it can vary, I'd point out its unlikely to vary outside the range we showed so even if I get paler/tanner I am just moving to a point in the color space already occupied by someone else, not a new point in the color space.
+
+Richard Vorder Bruegge replied -
+I agree that there is not likely to be a great variation, but it is not going to be a single number - people who tan, right?  
+
+Yevgeniy Sirotin answered -
+Yes, absolutely, I have observed the phenomenon for myself.
+
+
+[10:44 AM]
+Paul Pelletier asked : Can you identify the algorithm used and process to select it?
+1 upvote | 0 answer | 0 reply
+
+
+[10:53 AM]
+Richard Vorder Bruegge asked : Is the number of recognition opportunities based on individual frames, continuous 'tracks' or single transit through the field of view regardless of temporary occlusions?
+1 upvote | 1 answer | 0 reply
+
+Tony Mansfield answered -
+Transit through the zone of recognition. this might include temporary occlusions.
+A person lingering in the zone of recognition for a few minutes only counted as 1 detection opportunity
+
+
+
+
+[11:52 AM]
+Johanna Morley asked : Have you looked at how GPU impacts on these metrics?
+1 upvote | 1 answer | 0 reply
+
+Brendan Klare answered -
+Good question. GPU is effectively the same as CPU. I should have weaved this consdieration in and helped establish that is has mostly the same consdierations as a CPU. A 5x slower algortihm will require 5x more GPU. It is, by the way, an open question as to whether GPU is more cost efficient than CPU for template generation. 
+
+
+[12:01 PM]
+Ilan Arnon asked : Just a comment: There has been a great implementation of the open source ArcFace algorithm for Arm processors. This gives some credence to possibilities on Arm. Thanks 
+1 upvote | 1 answer | 1 reply
+
+Brendan Klare answered -
+The possibilities on ARM are already tremendous indeed. The point was not that FR cannot be performed on ARM. Instead, it is that certain FR algortihms cannot reasonably run on ARM/embedded for certain use-cases.This particularly applies to battery powered, multi-purpose devices where the algortihm only is allowed a small fraction of hardware resources. 
+
+Ilan Arnon replied -
+thanks!
+
+
+
+[12:07 PM]
+Yevgeniy Sirotin asked : Can you talk about how this dataset was collected, was there IRB protection?  And, whether you have masked and unmasked image pairs for the same individuals?
+1 upvote | 2 answers | 0 reply
+
+Bhargav Avasarala answered -
+did i answer your question Yevgeniy? and forgive my ignorance re: IRB protection, would the signing of a release form be enough for this or does it go much further than that, re: IRB protection? would love to learn more about this and be informed
+
+
+Yevgeniy Sirotin answered -
+Yeah Bhargav, IRB is an independent body that reviews and ensures that the study adequately informs and protects volunteers.
+
+
+[12:28 PM]
+Mohsen Saffari asked : From your point of view why the color's masks can improve the recognition accuracy? Because the mask's hue does not include any information.
+1 upvote | 1 answer | 1 reply
+
+Bhargav Avasarala answered -
+well we see that different colored masks make a difference in metrics (and this was found in the FRVT report as well), so we decided to have multiple colors. even tho the hue technically doesn't contain any info, the nature of the convolutional filters do respond to color so if we only had one color, we may have overfit to that in a way
+
+Mohsen Saffari replied -
+Ok, Thank you
+
+
+[12:30 PM]
+Michael Matyas asked : Did you try masks on gallery encounters as well as probes?  Do mask-to-mask error rates improve or degrade performance overall mask-to-unmask?
+1 upvote | 2 answers | 1 reply
+
+Patrick Grother answered -
+Mike that will appear in upcoming update to our mask report.  We expose FMR and FNMR effects under all combinations of mask and no-mask.
+
+Michael Matyas replied -
+our gallery is very much "polluted" with masked subjects at this point.  Trying to figure out the long term effects and possible remediation.  We may need a "mask detector" in order to filter the gallery.
+
+Patrick Grother answered -
+Some developers who have recently submitted to FRVT have face detectors to handle the various mask/no-mask combinations.  Should be available to you
+
+
+[12:42 PM]
+Richard Vorder Bruegge asked : Tony - Does ISO have a definition for "Decision"?
+1 upvote | 1 answer | 1 reply
+
+Craig Watson answered -
+Richard, Does Jim's comment answer your question?
+
+Richard Vorder Bruegge replied -
+Yes, Craig.  Thank you.
+
+
+[07:31 AM]
+Dan Bachenheimer (Accenture) asked : DG2 is solely the "encoded face" ; when you say you state that you will compare VIZ vs DG2. This means that you will compare the 'chip face' against the surface personalized face from the Visual Inspection Zone... why? to detect document fraud?
+0 upvote | 1 answer | 1 reply
+
+Bill Perry answered -
+Our overarching choice is to use DG2 as the quality and trust of the image is high. The piot is testing all image options.
+
+Dan Bachenheimer (Accenture) replied -
+Thanks Bill.   In general it makes sense to compare the electronically personalized face with the surface personalized face to detect document fraud. DG2 itself, as we are seeing at IFPC, is subject to age, quality, and morphing issues which we need to address.
+
+
+
+[07:31 AM]
+Christoph Busch asked : @Stacy: I like your assessment of the value of international standards!
+
+0 upvote | 1 answer | 0 reply
+
+Bill Perry answered -
+Good plug........ thanks
+
+
+[07:38 AM]
+Jacob Hasselgren asked : Have you seen a high number of false non-matches between the VIZ and the chip images? If those don't match, are users allowed to continue filling out forms?
+0 upvote | 1 answer | 0 reply
+
+Bill Perry answered -
+We have not analysed any results on this as yet.
+
+
+[07:38 AM]
+Tom Ankers asked : Excellent demo - do you have any statistics related to FTE? Also what % of visa applicants do you anticipate/hope will use it?
+0 upvote | 1 answer | 0 reply
+
+Bill Perry answered -
+Thank you. We do not have any stats or information we can share at this time. 
+
+
+[07:39 AM]
+Tom Ankers asked : *FTE/failure to match
+0 upvote | 0 answer | 0 reply
+
+
+[07:40 AM]
+Kerry T Shannon asked : How many different vendors have you sampled during your application development?
+0 upvote | 1 answer | 0 reply
+
+Bill Perry answered -
+We investigated the market at the sart of this project (over a year ago) and looked at various hardware and software providers. 
+
+
+[07:42 AM]
+Dan Bachenheimer (Accenture) asked : it is 2 slides back
+
+0 upvote | 0 answer | 0 reply
+
+
+[07:43 AM]
+Gillian Ormiston asked : Hi Bill,  can you explain more about the central checks performed to validate the data captured by the visa applicant.
+0 upvote | 1 answer | 0 reply
+
+Bill Perry answered -
+Im sorry we are not able to share this informtion.
+
+
+[07:55 AM]
+Yevgeniy Sirotin asked : Has Fawkes algorithm effectiveness been tested across commercial algorithms?  Is it uniformly effective?
+0 upvote | 0 answer | 0 reply
+
+
+[08:07 AM]
+Peter Hancock asked : Could you say more about your Fawkes testing? Did very little when I tried it.
+
+0 upvote | 1 answer | 0 reply
+
+Ted Dunstone answered -
+If you want to send me an email ted@biometix.com I'll send you the results once we've competed them.
+
+
+[08:10 AM]
+Nicholas Orlans asked : Per Fawkes: Has anyone investigated Fawkes output of larger images? (I think they are 124x124 or something quite small)
+0 upvote | 1 answer | 1 reply
+
+Ted Dunstone answered -
+If you want to send me an email ted@biometix.com I'll send you the results once weve got some more results
+
+Nicholas Orlans replied -
+OK. Thank you!
+
+
+[08:19 AM]
+Juan Tapia asked : This new work may complement this research:
+"Hybrid Two-Stage Architecture for Tampering Detection of Chipless ID Cards"
+https://ieeexplore.ieee.org/document/9197632
+0 upvote | 0 answer | 0 reply
+
+
+[08:29 AM]
+Kayee Hanaoka asked : From Martine Lapere:
+Dear, is the degraded performance of standard system due to selfie quality or/and passport photo. Was this investigated on an independent test?
+0 upvote | 0 answer | 0 reply
+
+
+[08:38 AM]
+Yevgeniy Sirotin asked : Higher FMR within groups will be magnified if galleries contain people from those same groups, raising FPIR for individuals from those groups.  Would this not entrench different performance based on, in your case, country of origin?
+0 upvote | 0 answer | 0 reply
+
+
+[09:15 AM]
+Richard Vorder Bruegge asked : Reply to the Wayman-Sirotin discussion...Two low res images may have a very high match score, but that could just be because there is little discriminating information available.  Thus high score, low confidence.
+
+0 upvote | 11 answers | 4 replies
+
+Mosalam Ebrahimi answered -
+Richard, this is spot on; that's one class of image pairs that demonstrate high similarity score wrongly.
+
+Yevgeniy Sirotin answered -
+Richard, do you think this will be easy to convey to reviewers?  My default is the DHS use-case, but certainly would be different for forensic review.  Maybe if the confidence interval is too wide, the algorithm result should be rejected?
+
+John J. Howard answered -
+I think we need a graph of how high a match score could *possibly* be, given the information content available.  Is anyone aware that such a graph exists?
+
+Patrick Grother answered -
+We've seem algorithms recently give high impostor scores on very low res images.  Better algorithms don't do that.
+
+Yevgeniy Sirotin answered -
+Can the confidence interval be integrated into the score somehow?  I.e. revising the score down for low confidence results?
+
+Richard Vorder Bruegge replied -
+In my classes, I go to great pains to explain that just because something "looks the same" that does not mean that it IS the same.  This comes back to the +3 to -3 scale for decisions... it also applies to how a reviewer should consider a match score with some skepticism.
+
+Richard Vorder Bruegge replied -
+Yes Yevgeniy - The Phillips PNAS paper on blending algorithms and humans had a way of doing that.
+
+Richard Vorder Bruegge replied -
+This is an area I am very interested in pursuing- how to fuse human and algorithm scores.
+
+Mosalam Ebrahimi answered -
+Richard, I'd like to hear your thoughts more, would it be possible to talk some time later? can I have your email to find a good time?
+
+John J. Howard answered -
+explainability is key here, I was glad to see Lars had some slides on this yesterday.
+
+Yevgeniy Sirotin answered -
+Richard, there may be some overlap of interest, especially in understanding how to gain optimal performance in a serial process.
+
+Patrick Grother answered -
+Humans can do exclusion - images are definitely of different people.  Algorithms don't  do that.  A low score needs to be explained.
+
+Richard Vorder Bruegge replied -
+rwvorderbruegge@fbi.gov  I'd like to set up more than a one on one talk, if possible... lots of interest in sharing ideas.
+
+Bhargav Avasarala answered -
+this discussion reminds me of the Probabilistic Face Embeddings paper from CVPR 2020 that assigns uncertainty to embeddings and loops that into the scoring. i think that's the closest to what you mention, Yevgeniy 
+
+Yevgeniy Sirotin answered -
+Patrick, yes low scores are likely most of the operational errors.
+
+
+[09:25 AM]
+anonymous asked : Can you review the difference between threshold dependent and threshold independent factor?
+0 upvote | 0 answer | 0 reply
+
+
+[09:30 AM]
+Kerry T Shannon asked : Hello from Plano, Jaqueline 
+0 upvote | 1 answer | 0 reply
+
+Jacqueline Cavazos answered -
+Hello Kerry!
+
+
+[09:36 AM]
+Michael Matyas asked : Do you have a tool/scale for evaluating image quality to replicate your race/quality assertion?
+
+0 upvote | 0 answer | 0 reply
+
+
+[09:38 AM]
+Steve Vlcan asked : Is there a way to differentiate "bias" potentially introduced by the construction of a CNN FR algorithm versus "bias" potentially introduced by the selection of training data?
+0 upvote | 0 answer | 0 reply
+
+
+[09:40 AM]
+Richard Vorder Bruegge asked : Question for Patrick - are you aware if anyone has ever analyzed the difference in dynamic range across lun=minance images of different race faces?
+0 upvote | 0 answer | 0 reply
+
+
+[09:58 AM]
+Richard Vorder Bruegge asked : ARe the CE data only for the "mug shot" images or all collected data (including video)?
+0 upvote | 1 answer | 0 reply
+
+John J. Howard answered -
+CE is controlled environment, which is constant office lighting indoors (the MdTF) but not necessarily "mugshot".
+
+
+[09:59 AM]
+Richard Vorder Bruegge asked : Sorry - did you measure the FAL across the entire face in the photos or the same locations on the temples?
+0 upvote | 2 answers | 1 reply
+
+John J. Howard answered -
+Richard, please see Figure 3 here: https://mdtf.org/publications/demographic-effects-image-acquisition.pdf
+
+
+Richard Vorder Bruegge replied -
+Any chance you could look at the temple-only areas to see if that brings your measures closer in conformance to the calibrated measures?
+
+Yevgeniy Sirotin answered -
+Richard, we were able to correct the camera images from our enrollment photos to be highly correlated >0.9 with color readings from the sensor.
+
+
+[10:19 AM]
+Steve Vlcan asked : @Yevgeniy / @John: Based on your research, are we at a point where a "controlled environment" can be specifically defined?  In other words, is there as guidance or best practices that can be followed for other tests to ensure proper coloring of images?
+0 upvote | 2 answers | 0 reply
+
+Yevgeniy Sirotin answered -
+Steve, systems can be calibrated using standard color targets in situ to help deal with variability in sensor and lighting.
+
+John J. Howard answered -
+for our purposes controlled environment meant office lighting.  There are standards in the US from an agency called OHSA as to office lighting.  Following these standards may help control lighting but as we showed variations in perceived color are still large.
+
+
+[10:40 AM]
+Xiyn Li asked : Do you use IR cameras?
+0 upvote | 0 answer | 0 reply
+
+
+[10:54 AM]
+Tom Ankers asked : Although the algorithms are very dated, were the results, methods and findings from NIST FIVE considered (camera placement, distance to FOV results, height)?
+0 upvote | 1 answer | 0 reply
+
+Johanna Morley answered -
+Yes, Camera placement is key to the operational use of the system and we have a dedicated team of engineers to optimize camera parameters.
+
+
+[10:54 AM]
+Richard Mark Case asked : How do you enrol your test subjects to ensure they reflect the variance in quality that exists on operational databases/watchlists?  Also, will any evidence gleaned from the test inform custody imaging capture policy?
+0 upvote | 1 answer | 1 reply
+
+Johanna Morley answered -
+We will capture subject reference images to conform to the FIND standard, which is the standard for image capture in custody
+
+Richard Mark Case replied -
+Thanks Johanna.  I'm just aware that the FIND guidance wasn't fully adopted by all forces and compliance is sporadic.  It would be great if Home Office Biometrics could take the opportunity to strengthen the message in terms of quality, similarly to what has happened in the past for Fingerprints and DNA.  Fingers crossed.  Good luck on your test 
+
+
+[10:55 AM]
+Richard Mark Case asked : Are South Wales Police engaging/collaborating with NPL and The Met given the similarity in hardware and deployments?
+0 upvote | 2 answers | 2 replies
+
+Johanna Morley answered -
+We are all working collaboratively under National Policing governance
+
+Richard Mark Case replied -
+Thanks, great to hear
+
+Tony Mansfield answered -
+Yes, there has discussion on cooperation between South Wales Police and Met Police due these similarities,
+
+Richard Mark Case replied -
+Thanks Tony.  Obviously the more data and experience gained the better the results and any subsequent policies there will be.
+
+
+[10:56 AM]
+m asked : Have you tried an operational test at night?
+0 upvote | 1 answer | 1 reply
+
+Johanna Morley answered -
+Not at this stage
+
+
+m replied -
+Thank you.
+Is it planned for? if so, rough guesstimate on timeline?
+
+
+[11:01 AM]
+Xiyn Li asked : The watchlist is prepared for each deployment, Is there any limitation in the environment, e.g. online or offline? How much time with that probably take? 
+0 upvote | 1 answer | 0 reply
+
+Johanna Morley answered -
+The watchlist is aligned to operational crime parameters and prepared offline
+
+
+[11:08 AM]
+Ilan Arnon asked : Given that field officers received all alerts, i.e. not just those adjudicated by control-room officers. did this overwhelm the field officers with false matches?
+
+0 upvote | 1 answer | 1 reply
+
+Johanna Morley answered -
+No, the technology we use has a very low False Positive Alert Rate
+
+Ilan Arnon replied -
+Thanks. My company is Face4 Systems, and we are very involved in FR in video/surveillance. We have had a couple of significant filed trials. It would be nice to share some thoughts together. You can reach me at ilan.arnon@face4systems.com
+Thanks.
+
+
+[11:12 AM]
+Christoph Busch asked : @Mike: On TS 4213: Why should we report classification performance different, when using ML models instead of handcrafted features and classifiers? Is the methodology with our established biometric testing methods (e.g. 19795 and 30107-3) not applicable?
+0 upvote | 1 answer | 0 reply
+
+Michael Thieme answered -
+short answer to Christoph: yes, it's consistent, but some additional reporting requirements could be imposed to more clearly address things like the composition of the training, validation, and test set (and how bias was identified and mitigated). 
+
+
+[11:24 AM]
+Richard Vorder Bruegge asked : And how to mitigate it,...
+0 upvote | 0 answer | 0 reply
+
+
+[11:54 AM]
+Greg Fiumara asked : In your opinion, should FR vendors be creating different types of templates for each of these different scenarios?
+0 upvote | 1 answer | 0 reply
+
+Brendan Klare answered -
+The templates for these use cases would generally be the same. But, in some cases different algortihms are needed. E.g., to support many embedded device use-cases, the speed and efficiency requirements are too onerous to deploy a more traditional, high acuracy algorithm
+
+
+[12:41 PM]
+Quentin Revell asked : Are the standards focused on "static samples" that are evaluated (e.g. Fingerprints / Photos), and has it adopted metrics for streaming data e.g. video? Or wider performance metrics.
+0 upvote | 1 answer | 0 reply
+
+Tony Mansfield answered -
+Same metrics for static image based, and  for continuous streams of data.
+
+
+[12:49 PM]
+Yevgeniy Sirotin asked : If only one timing metric is reported, can you comment for what use-cases the median or mode transaction time should be chosen over the mean?
+0 upvote | 1 answer | 0 reply
+
+Tony Mansfield answered -
+Ideally the distribution of transaction durations should be reported. 
+Then choice of median, mode etc will depend on how the figure will be used.
+
+
+[12:59 PM]
+Keith Browning asked : Is the section on Test Size and uncertainty being revised?  
+
+0 upvote | 1 answer | 0 reply
+
+Tony Mansfield answered -
+I dont rhere has not been much change for the 2nd edition. I think there is scope to do more (maybe for the next revision). 
+
+
+[01:07 PM]
+james wayman asked : Keith -- See J.L. Wayman, A. Possolo, and A.J. Mansfield, “A Modern Statistical and Philosophical Framework for Uncertainty Assessment in Biometrics", IET Biometrics, Vol. 2, No. 3, Sept. 2013, pp. 85-96
+https://digital-library.theiet.org/content/journals/10.1049/iet-bmt.2013.0009
+
+0 upvote | 0 answer | 0 reply
+
+
+[01:09 PM]
+Quentin Revell asked : @Raul - Hybrid can be good, but tends to focus on people "in the room". If its virtual we're all in the same boat. 
+  
+0 upvote | 0 answer | 0 reply
+
+
+
+Deleted Questions
+[08:34 AM]
+anonymous asked : ..
+0 upvote | 0 answer | 0 reply
+
+
