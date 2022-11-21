@@ -1,0 +1,528 @@
+EVENT NAME
+
+International Face Performance Conference (IFPC) 2022
+
+EVENT DATE: TUESDAY, 15 NOVEMBER, 2022 - 06:45 AM to 12:15 PM
+
+EVENT BY: MEI LEE NGAN
+
+
+
+Posted Questions
+[09:22 AM]
+M Ngan asked : Question from Patrick Grother:
+
+Did you consider compression effect on impostor scores?
+7 upvotes | 0 answer | 0 reply
+
+
+[07:25 AM]
+Ilan Arnon asked : Will there be any research into correlation between SFIQ number and face rec performance?
+6 upvotes | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question. Yes, we've done this already with test data and we will continue making it as part of the operational service management.
+
+
+[09:04 AM]
+Richard Arendsen asked : GANs are trained on real faces, so you just moved the problems for GDPR, right?
+
+6 upvotes | 0 answer | 0 reply
+
+
+[07:17 AM]
+Yevgeniy B. Sirotin asked : Is euLISA planning at this time to assess liveness in the captured face image provided?
+5 upvotes | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question. This is currently performed at capture level at the MS side 
+
+
+[07:37 AM]
+Dan Bachenheimer asked : How often do you plan to re-evaluate the quality scoring parameters as the gallery grows/changes over time?
+5 upvotes | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question. As stated in the EES IA, we need to evaluate accuracy on a monthly basis -> we will assess quality as well.
+
+
+[08:12 AM]
+John J. Howard asked : Slide 6 says that a unified quality score should "depend on all factors that can influence face recognition performance".  Demographics can influence face recognition performance (males matched to males have higher FMR than females matched to males).  Should quality depend on demographics?
+5 upvotes | 4 answers | 2 replies
+
+Patrick Grother answered -
+I think idea is all factors measurable in the image, particularly departures from canonical frontal photo, such as pose, illumination, expression etc. 
+
+Johannes Merkle answered -
+Only factors that can be influenced / remedied should determine the unified quality score (UQS). However, we don't know, what factors influence the outputs of CNNs computiing a UQS. This may be a good reason not to use a CNN for the UQS in OFIQ, but to fuse the outputs of the other algorithms (relating to specific aspects) included in OFIQ. Such a fusion, however, should only use the outputs of measures that are relevant for face recognition.   
+
+John J. Howard replied -
+Thanks Patrick/Johannes -- I'm finding "performance" in the quality context is sometimes an overloaded term.
+
+
+Johannes Merkle answered -
+Here, I mean face recognition accuracy
+
+John J. Howard replied -
+The formula for accuracy includes false positive counts.  So things that increase false positive rates would be included for consideration in your universal quality score?
+
+Johannes Merkle answered -
+Good question, which has also bveen discussed in Jim's talk. Clearly, very poorly illuminated images (where a lot of details are lost) are more susceptoble to false positives and the same might apply for extreme poses (from behind, many persons look similar ;-) ) 
+However, as Jim said, mated score are much more stable w.r.t quality aspects than non-mated scores. Thus, we will only consider mated scores (error discard curves) in our evaluation.  
+
+
+[08:05 AM]
+John Campbell asked : As SOTA algorithms become better and less sensitive to certain factors (such as pose or illumination or sharpness) how will the quality metrics and capture guidance in the standards 
+be updated?
+3 upvotes | 2 answers | 0 reply
+
+Patrick Grother answered -
+One way would be to relax quality rejection thresholds, as was done with NFIQ 1.
+
+Johannes Merkle answered -
+Indeed, the requirements and recommendations may need to be adjusted if there is no impact on biometric verification. However, we do not only need to take into account face recognition algorithms but also manual verification and other biometric algorithms, like morph attack detection or PAD.  
+
+
+[08:40 AM]
+Yevgeniy B. Sirotin asked : Is there any information on whether quality measures vary for individuals that belong to different demographic groups?
+3 upvotes | 3 answers | 1 reply
+
+Benjamin Tams answered -
+I am not sure, if this question goes in my direction. But, I think this is hard to answer. On the one side, it is frequently reported that recognition performance depends on demographics and since quality assessment should predict recognition performance it should then also vary for different demographic groups. On the other hand, biometric algorithmics should be unbiased. Also, and this is another point to consider, our quality assessment should be matcher-agnostic but predict recognition performance, anyway. So, I cannot fully answer your question.
+
+Patrick Grother answered -
+Generally they do - tests warranted. As Benjamin said, any algorithm operating on face images could be biased.
+
+Yevgeniy B. Sirotin replied -
+If quality scores vary with demographics, they image rejection may also be more frequent for some groups than others.  Is that a correct conclusion if image quality is included in the process?
+
+Johannes Merkle answered -
+That depends on the algorithm. For instance, an algorithm assessing under exposure could frequently output false positives for subjects with dark skin. We will try to avoid this by performing evluations on a large variety of images and data sets. But there are limitations. For instance, an algorithm aiming to detect unnatural colors yould fail for subjects with severe sun burn or port-wine stains (ok, this is not a deomagraphic factor but a medical one)   
+
+
+[09:02 AM]
+Terry asked : What data was used to train the GANs?
+
+3 upvotes | 0 answer | 0 reply
+
+
+[07:22 AM]
+Yevgeniy B. Sirotin asked : What method of capture are you using for land-border vehicle capture?
+2 upvotes | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question. The capture is on the hands of the MS but you can direct this question to Frontex as well.
+
+
+[07:22 AM]
+Doris asked : How fast does the face quality algorithm provide feedback? Will it always be possible to ask for a re-capture or does the person move on to manual verification?
+2 upvotes | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question. The quality calculation happens within the USK at MS level so the reply is almost immediate (sorry that cannot go in further details). The decision of going to 2nd line is on MS hands, so it is the border guard decision
+
+
+[07:24 AM]
+Rod Hemphill asked : When do you anticipate for EES to become fully operational regionally wide?
+
+2 upvotes | 1 answer | 1 reply
+
+Ramon Blanco answered -
+Thanks for your question. This is a very tough one :) I don't personally handle last news but the last official date is May 2023 up to my knowledge
+
+Rod Hemphill replied -
+Thank You Ramon!
+
+
+
+[07:44 AM]
+Anna asked : What do you mean by open source implementation? Do you refer to images coming from Open Internet, or do you mean that your project will be available through Open Source? Apologies, I don't know much about standards set processes.
+2 upvotes | 0 answer | 0 reply
+
+
+[09:03 AM]
+Asif Khan asked : You still need real data to train GAN models and all the variations in your generated portraits will be limited only to real training data. Am I right?
+2 upvotes | 1 answer | 0 reply
+
+F. Peters, bdr answered -
+No, we use the already trained data and just manipulate the vector responsable for generating particular attributes
+
+
+
+[09:04 AM]
+Lerone Brathwaite asked : Will we be able to have access to this presentation?
+
+2 upvotes | 0 answer | 0 reply
+
+
+[09:20 AM]
+Johannes Merkle asked : Did you also consider compression effects on printed and scanned images
+2 upvotes | 0 answer | 0 reply
+
+
+[09:26 AM]
+Uwe Seidel asked : Would you agree that next to JPEG XL, JPEG 2000 performed second best. So, no real reason to change for countries already using jpeg 2000?
+2 upvotes | 0 answer | 0 reply
+
+
+[11:21 AM]
+Terry asked : Is face "lightness" affected by image camera exposure?
+2 upvotes | 1 answer | 1 reply
+
+Yevgeniy B. Sirotin answered -
+Face lightness is a property of the individual and not the image.  We measured face lightness of each person.  Face lightness in images of the person can vary dramatically across cameras - likely because of exposure.
+
+Terry replied -
+I'm curious if the points on your graph move horizontally with respect to measured lightness.
+
+
+[11:27 AM]
+Luna VAN LANY asked : In regard to the data of 2021 Biometric Technology Rally: is poor accuracy mostly due to false positives or to false negatives? 
+
+2 upvotes | 2 answers | 0 reply
+
+Yevgeniy B. Sirotin answered -
+The Rally primarily measures false negatives.
+
+Yevgeniy B. Sirotin answered -
+75% of the errors were actually due to failures of image acquisition - not matching.  This may be an issue with face detection or quality benchmarks for individuals with darker skin.
+
+
+[07:15 AM]
+Christian Halet asked : Do you think that very low yaw, tilt for face quality will not be a limiting factor for self service kiosk? New facial matching is allowing larger variation without degrading too much performance.
+1 upvote | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question, replied after the presentation.
+
+
+[07:42 AM]
+Uwe Seidel asked : What are the main quality parameters selected for OFIQ Implementation?
+1 upvote | 0 answer | 0 reply
+
+
+[07:55 AM]
+M Ngan asked : From: Fabrizio (re-routed from chat)
+could ofiq be used on the frvt test?
+1 upvote | 2 answers | 0 reply
+
+Johannes Merkle answered -
+Yes, we will submit our prototype implementations (comprising several candidates for some quality aspects) to FRVT QA
+
+Patrick Grother answered -
+Yes OFIQ will be submitted into the SIDD track of FRVT
+
+
+[08:31 AM]
+Chamberlin -DHS asked : Ben,  did you have enough data about the specific 29794-5 vector values?  And what group or groups, reviewed the data - in terms of privacy, quantity, etc.. to approve your use of the data?
+1 upvote | 2 answers | 0 reply
+
+Benjamin Tams answered -
+Thank you for your question. We will perform internal pre-evaluations to reduce shortlisted implementations and reduce the amount of FRVT submission. But the final result will be in the evaluation report of SIDD.
+
+Johannes Merkle answered -
+We mainly use public datasets. For aspects, where no eligible datasets (having corresponding labels) are avlailable (e.g. specular reflections), we perform small scale evaluations on self-captured images. 
+
+
+[08:34 AM]
+Zsuzsanna Bartha asked : How do you plan to weight the effect of different parameters on the unified quality score in the OFIQ?
+1 upvote | 3 answers | 1 reply
+
+Benjamin Tams answered -
+Thank you for your question. There will (as per current working draft of 29794-5) be a calibration of the unified quality score to match a pre-defined contribution on the LFW dataset.
+
+Johannes Merkle answered -
+There are tow options for the unified quality score (UQS): 
+1. Use a CNN taking the whole imnage as input, e.g. MagFace or SSD-FIQA. In this case, we don't know what factors influence the UQS. 
+2. Fuse the outputs of other algorithms (relating to specific aspects) included in OFIQ. Such a fusion, however, should only use the outputs of measures that are relevant for face recognition. Even if the fusion is performed by machine learning, the influence of the individual aspects can be determined by computing the feature importance. 
+
+Zsuzsanna Bartha replied -
+Thanks!
+
+Johannes Merkle answered -
+We will definiely evaluate both approaches 
+
+
+[08:51 AM]
+Sylvia Fichthorn asked : Has any consideration been given to people(s) who have undergone plastic surgery/surgeries, received Botox/filler injections, and/or other invasive cosmetic procedures that alter their appearance minimally/dramatically, with or without the natural aging process in consideration?
+1 upvote | 1 answer | 1 reply
+
+Patrick Grother answered -
+That's mostly a question about FR performance when comparing two images. The algorithms discussed today consider quality of one image.  Typical surgery or botox would not be expected to greatly change quality measures.
+
+Sylvia Fichthorn replied -
+Thanks!
+
+
+[08:52 AM]
+Chamberlin -DHS asked : Florian, is there a National guideline on how to collect face images and how does it address religious head coverings at time of collection.
+1 upvote | 1 answer | 0 reply
+
+Johannes Merkle answered -
+ISO/IEC 19794-5:2001 recommends that head coverings (e.g. hats, caps, headscarves) are absent, except in cases, where a covering cannot be removed, e.g. due to religious reasons. Similarly, 
+I can only report on the ISO standards: 
+ISO/IEC 39794-5:2019 requires that head coverings shall not be accepted except in circumstances specifically approved by the issuing state.
+
+
+[09:10 AM]
+Luis Nunes asked : there are some recent use cases of stable diffusion to compress images generating higher compression rates and lower loss. Have you considered analysis those as well?
+1 upvote | 0 answer | 0 reply
+
+
+[09:29 AM]
+Ilan Arnon asked : Did you consider testing specific ROI compression using JPG2000? For example, only specific regions of the face.
+
+1 upvote | 0 answer | 0 reply
+
+
+[10:00 AM]
+Asif Khan asked : What is the reason, why larger is not better?
+1 upvote | 0 answer | 0 reply
+
+
+[10:30 AM]
+Yevgeniy B. Sirotin asked : In absolute score space, what was the separate impact on pair quality on non-mate as compared with mate scores.  This is critical for determining whether to change thresholds.
+1 upvote | 0 answer | 0 reply
+
+
+[10:57 AM]
+Terry asked : Why aren't evasion "attacks" really just compliance checks? And if not, what is the difference besides intent (which cannot be objectively determined) ?
+
+1 upvote | 0 answer | 0 reply
+
+
+[11:19 AM]
+M Ngan asked : Question from Joyce Yang:
+
+Is there a specific part of the face that was used to determine the skin tone?  Is it consistent across all subjects?
+1 upvote | 1 answer | 0 reply
+
+Yevgeniy B. Sirotin answered -
+Yes - we took readings on the left and right temple.
+
+
+[11:24 AM]
+Doris asked : would using black and white photo result in better performance overall?
+1 upvote | 1 answer | 0 reply
+
+Yevgeniy B. Sirotin answered -
+Datasets used to train FR are not color calibrated and algorithms likely therefore discard this information - however images of faces that are darker may carry lower signal to noise and are more prone to under-exposure, potentially because camera manufacturers tend to target lighter colors for imaging.
+
+
+[11:43 AM]
+Benjamin Tams asked : By when should submissions to SIDD been made to be considered in the first evaluation round in ears '23?
+1 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+First in first out on a continuous basis.  No real "rounds".  We'll build the reporting and analysis incrementally.
+
+
+[07:14 AM]
+Mauricio Anaya asked : What does Ramon mean by "not able to obtain an image"? Camera not working or because of face coverings, etc.?
+0 upvote | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question, replied after the presentation.
+
+
+[07:20 AM]
+Mauricio Anaya asked : My question about "not able to obtain an image" was answered in the previous slides. Thanks.
+
+0 upvote | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question
+
+
+[07:24 AM]
+Christian Halet asked : If you filtered data through proprietary algorithm, how can providers check if they are compliant?
+0 upvote | 1 answer | 0 reply
+
+Ramon Blanco answered -
+Thanks for your question. If "the providers" are biometric providers to MS, we are really encouraging MS to use the USK (they are not obliged). If not, as written in the EES IA, their algorithms shall correlate with the USK ones. sBMS will check this fact
+
+
+[07:39 AM]
+JPMorichon asked : What do you mean by producing good quality ?
+0 upvote | 0 answer | 0 reply
+
+
+[07:42 AM]
+Ilan Arnon asked : Will the OFIQ specify recommended image capture setup and their importance for quality?, e.g. for ABC gates or for mobile phones.
+0 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+Hi Ilan, Photographic setups appear in ISO/IEC 39794-5 and it's predecessor 19794-5.  Not for phones, where distortion could be a problem at least in selfies.  
+
+
+[08:12 AM]
+Tawsin asked : are CNN based approaches (e.g. SDD-FIQA) reliable for biometric face image quality assessment because most of the SOTA FIQA CNN models are trained on wild faces (e.g. VGGFace); not on the images that are ISO-29794-5 compliance?
+
+0 upvote | 1 answer | 1 reply
+
+Johannes Merkle answered -
+For face recognition, the CNNs trained on in the wild datasets are superiour even on ISO-compliant images. We think that the same applies to QA algorithms. However, we don't rely on this assumption, but perform evaluations of candidate algorithms on images that we consider relevant for the typical application scenarios (as far as available).
+
+Tawsin replied -
+Yes. It is interesting to see if SOTA CNN based FIQA models are reliable in the bio-metrics authentication scenario.
+
+
+
+[08:15 AM]
+CROLL Christian (ME-GROUP) asked : Dear, Regarding the expression, it seems that the smile can be accepted for driver’s license photos in some Asian countries.
+How should we view facial expression in the future. Thanks for your presentation. 
+Christian CROLL - ME-GROUP
+
+0 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+I don't see the standard changing on this.  Regional tolerance of deviations from the standard will continue to occur, I think.
+
+
+[08:18 AM]
+Gabriel H asked : Regarding expression neutrality, how to deal with people affected by e.g ictus/paralysis?
+
+0 upvote | 1 answer | 1 reply
+
+Johannes Merkle answered -
+For many aspects, e.g. natural colors, there may be some subjects where the algorithms may fail. Personally, I don't think that there will ever be a perfect solution. But don't let the perfect be the enemy of the good. For such cases, real world applications need fall-back solutions, e.g. an operator overriding the algorithm's assesssment.  
+
+Gabriel H replied -
+Thanks!
+
+
+[08:19 AM]
+Mahesh Kumar Sharma asked : Have you also considered age invariation in your algorithm?
+0 upvote | 2 answers | 1 reply
+
+Benjamin Tams answered -
+Thank you for your question. No, we do not consider to consider age variations. Do you mean the age of the subject?
+
+Johannes Merkle answered -
+Unfortunately, there are not many datasets having large age variations and labels for age AND quality aspects.
+
+Mahesh Kumar Sharma replied -
+Yes. Thanks for the clarification.
+
+
+
+[08:29 AM]
+Greg Fiumara asked : In terms of code/system portability, especially when including quality components that employ CNNs, are there plans to allow deviations of unified quality scores (e.g., accepting +/- some value) when the OFIQ is computed on different CPU architectures, operating systems, etc.?
+0 upvote | 2 answers | 0 reply
+
+Benjamin Tams answered -
+Thank you for your question. Yes, we are planning to conduct harmonisation tests for OFIQ and guarantee portability for several platforms.
+
+Johannes Merkle answered -
+Certain deviations will be inevitable due to arithmetic implementation details, but these should be limited to the minimum necesary. This minimum will be determined in the project. 
+
+
+[08:34 AM]
+Malik Owens asked : Where are the conference slides located?
+
+0 upvote | 1 answer | 1 reply
+
+Mei Lee Ngan answered -
+Slides will be published on the conference webpage shortly after the conference has ended.
+
+Malik Owens replied -
+Thank you
+
+
+[08:37 AM]
+Asif Khan asked : How do you detect face and facial landmarks, as most of these quality checks depend on accuracy and precision of facial landmark detection.
+0 upvote | 1 answer | 0 reply
+
+Benjamin Tams answered -
+Thank you for your question. We want to avoid that multiple quality measures implementation recompute facial landmarks using different sub-implementations. We will provide a single landmark/face/... detectors. For landmark extraction, we succeeded in converting Google Mediapipe to ONNX and loading it via OpenCV 4.5
+
+
+[08:55 AM]
+Stephanie asked : Do hou also compare the performance of the quality assessment algoritme with the performance of humans?
+0 upvote | 0 answer | 0 reply
+
+
+[08:55 AM]
+Mauricio Anaya asked : Did I hear correctly, the goal is to live-capture 100% of German citizens BUT photos may be allowed sometimes?
+0 upvote | 0 answer | 0 reply
+
+
+[09:03 AM]
+David Shipley asked : Are algorithms refined using synthetic faces compared with algorithms developed using live, actual faces to validate their performance as well?  How well do they compare?
+0 upvote | 0 answer | 0 reply
+
+
+[09:07 AM]
+Lerone Brathwaite asked : Is there any co-relation with the image capturing process relating to the same 
+image being viewed via different angles (eg tilting etc)
+0 upvote | 0 answer | 0 reply
+
+
+[10:33 AM]
+Dan Bachenheimer asked : Will galley images be adjusted based on quality? E.g., remove poor templates from Matcher or weight them differently
+
+0 upvote | 0 answer | 0 reply
+
+
+[10:35 AM]
+Fabrizio  asked : Did you find any ethnicity bias on this analista?
+0 upvote | 1 answer | 0 reply
+
+james lewis wayman answered -
+We have not had ethnicity information.  There is, however, score variation by subject age and gender. 
+
+
+[10:55 AM]
+Michael Matyas asked : Will NIST test the computational photography algorithms provided by camera manufacturers to ensure forensic fidelity?
+0 upvote | 0 answer | 0 reply
+
+
+[11:15 AM]
+Richard Vorder Bruegge asked : Can we assume you did not collect any (or a lot) of data on subjects of Asian ancestry?
+
+0 upvote | 1 answer | 0 reply
+
+Yevgeniy B. Sirotin answered -
+We did have subjects of Asian ancestry however, this was a minority of our population.  Further, this US race category is extremely diverse in skin tone as it includes individuals from diverse geographic locations and ethnic backgrounds.
+
+
+[11:27 AM]
+Udo Mahlmeister asked : How much does skin-specific color calibration help in the presence of auto white balance? Should AWB "gray out" skin tone to improve biometric performance?
+0 upvote | 1 answer | 0 reply
+
+Yevgeniy B. Sirotin answered -
+I think adjustment should be made based on diffuse face skin reflectance and not based on the whole scene.  I do not know if the goal should be to correctly reproduce L* or if the goal should be to ensure equal exposure for diffuse skin independent of actual L* of the individual.  Given variation in skin tone across images in biometric training sets, algorithms have potentially learned to ignore this feature.
+
+
+[11:41 AM]
+Terry asked : what if transparent eye glass frame occludes an eye?
+
+0 upvote | 0 answer | 0 reply
+
+
+[11:51 AM]
+Johannes Merkle asked : Do you lan to consider reflection on eye glasses?
+0 upvote | 2 answers | 1 reply
+
+Joyce Yang answered -
+Reflection in eyeglasses would probably be counted as semi-transparent (between fully transparent and fully opaque)  for the sunglasses measure.
+
+Johannes Merkle replied -
+But reflections of a flash could be compeletely obscuring the underlying textures
+
+Patrick Grother answered -
+Relatively easy to curate sets, and test.  No plans given other factors to do.
+
+
+[12:16 PM]
+Uwe Seidel asked : More a comment than a question: remote validation of documents and credentials was extensively discussed and investigated as part of the VideoIdent process in Europe.
+0 upvote | 0 answer | 0 reply
+
+
+
+Deleted Questions
+[07:10 AM]
+M Ngan asked : Please enter any questions you have for the presenters here!
+0 upvote | 0 answer | 0 reply
+
+

@@ -1,0 +1,437 @@
+EVENT NAME
+
+International Face Performance Conference (IFPC) 2022
+
+EVENT DATE: THURSDAY, 17 NOVEMBER, 2022 - 06:45 AM to 12:15 PM
+
+EVENT BY: MEI LEE NGAN
+
+
+
+Posted Questions
+[09:46 AM]
+Anna asked : Very well presented talk - thank you for sharing all these real cases!!
+8 upvotes | 1 answer | 0 reply
+
+Matjaž Torkar answered -
+Thank you
+
+
+[07:52 AM]
+Richard Vorder Bruegge asked : My concern is that legislators (and others) are calling us to test our systems in operational scenarios, but how can we without ground truthed data?
+Sounds impossible without the data.
+5 upvotes | 0 answer | 0 reply
+
+
+[09:53 AM]
+Udo asked : Very informative, Matja! Do you have any clue of how  the facilitators found a Slovenian individual similar to their "customer"?
+5 upvotes | 1 answer | 0 reply
+
+Matjaž Torkar answered -
+Organizator - crime group, have potential candidates - users. Then they found case by case Slovenian citizens, and compare with users - checking for similarities...
+
+
+[07:25 AM]
+Stéphane Gentric asked : may differences seen between country comes from quality of documents used (different acquistion process in different country) ?
+4 upvotes | 1 answer | 1 reply
+
+Patrick Grother answered -
+The FN rates were computed from border crossing photos not dependent on worldwide document variations.
+The FP rates were computed from good quality immigration office photos, so also not regionally collected.
+
+Stéphane Gentric replied -
+clear, thx
+
+
+[07:51 AM]
+Alexandre Carmo asked : How would you define thresholds for automatic results if you have a dataset so variable like INTERPOL, with people from almost 190 countries? Thanks.
+4 upvotes | 3 answers | 2 replies
+
+Patrick Grother answered -
+If you run in an investigative mode and configure your search engine to give fixed length candidate lists then threshold = 0 and you don't have to worry about this.
+
+Patrick Grother answered -
+You might want to avoid showing investigators the score values.
+
+Alexandre Carmo replied -
+at the moment, we don´t run on investigative mode, so we have 2 experts to check and validate (ACE-V). However, what happens if the use case is for border control?
+
+Patrick Grother answered -
+Then set threshold on the group that gives highest FMR. This would be "cautious" or "conservative".
+
+Alexandre Carmo replied -
+Thanks.
+
+
+[09:39 AM]
+Alexandre Carmo asked : When people enroll their face and fingerprints to issue the passport, do you have a team in the backend to check and validate the faces in the passport system? Does your AFIS/ABIS/MBIS check for a previous passage against the whole dataset (1:N)?
+
+4 upvotes | 0 answer | 0 reply
+
+
+[09:43 AM]
+Mei Lee Ngan asked : From Christoph Busch:
+
+Thank you Matjaz for the talk. Do you know, if fingerprint verification was done in PL, when revealing the cases?
+4 upvotes | 1 answer | 0 reply
+
+Matjaž Torkar answered -
+Yes, we got 2 passports, during the investigation, and compare fingerprints from Rfid, and from real owner. It was a mach, that help us to prosecute the suspect - owner of the document - Slovenian citizen
+
+
+[09:46 AM]
+Alexandre Carmo asked : Have you sent those faces to be checked against INTERPOL face database? If not, could you please contact your National Central Bureau to facilitate those pictures to us via the regular ways? Thanks.
+
+4 upvotes | 2 answers | 1 reply
+
+Matjaž Torkar answered -
+All those cases are confirmed as morphed images. we got all the identityis of users and owners of Slovenian passports.. 
+
+Alexandre Carmo replied -
+It would be a good idea to send those photos, the morphed and non-morphed faces to be searched at Interpol Facial Recognition System. The people that you got may be involved in other crimes around the world.
+
+
+Matjaž Torkar answered -
+for sure. Godd idea.
+
+
+[07:26 AM]
+Ilan Arnon asked : Following on the last question: What approaches has industry taken to address demographic issues? For example, using more balanced training sets.
+3 upvotes | 1 answer | 0 reply
+
+Patrick Grother answered -
+FP differences should be addressed by algorithm developers e.g. by using more balanced sets as you suggest.
+FN differences are in large part due to poor photography and algorithm intolerance of that.
+
+
+[09:32 AM]
+Johannes Merkle asked : Even if we have Morph Attack Detection algorithms in place, how can police officers check whether a positive result is a false positive or an attack? 
+3 upvotes | 0 answer | 0 reply
+
+
+[09:35 AM]
+Jason Prince asked : What face comparison related training did the people who detected the morphs have?
+
+3 upvotes | 0 answer | 0 reply
+
+
+[11:55 AM]
+Steve Vlcan asked : Will it be possible to post Q&A responses along with the presentation videos?
+
+3 upvotes | 0 answer | 0 reply
+
+
+[07:37 AM]
+Richard Vorder Bruegge asked : Q for John and Ptrick - we have ground-truthed mug shot data that is marked for ancestry/race, but where is the "operational" CCTV-type data that is ground truthed and covers the relevant groups? What can be done to gather such data - and make it available to developers?
+2 upvotes | 0 answer | 0 reply
+
+
+[08:44 AM]
+Mei Lee Ngan asked : Question from Yevgeniy B. Sirotin
+
+Question for Mike: The 19795-10 standard specified that race and gender should be self-reported. How were race and gender reported in your utilized dataset?
+2 upvotes | 0 answer | 0 reply
+
+
+[08:44 AM]
+Mei Lee Ngan asked : Question from John J. Howard
+
+Question for Mike: How was the determination that certain individuals were "intentionally" mis-representing their gender made?
+2 upvotes | 0 answer | 0 reply
+
+
+[09:14 AM]
+Johannes Merkle asked : Is the YFA dataset made available?
+2 upvotes | 0 answer | 0 reply
+
+
+[09:17 AM]
+James R. Matey asked : Please post the github link for the Clarkson talk in the Q &A
+2 upvotes | 0 answer | 0 reply
+
+
+[10:07 AM]
+Richard Vorder Bruegge asked : Mei - On the 1:N scenario, age differences in older passport photos will reduce the match score - can you dis-entangle that effect? Does the age difference generate a reduced effect on match score?
+2 upvotes | 1 answer | 1 reply
+
+Mei Lee Ngan answered -
+Hi Richard - see Figure 10 in https://pages.nist.gov/frvt/reports/morph/frvt_morph_4A_NISTIR_8430.pdf
+
+Richard Vorder Bruegge replied -
+Thank you!
+
+
+[11:49 AM]
+Mei Lee Ngan asked : Question from Yevgeniy B. Sirotin:
+
+Question for Froy: Will the quantitative study results be published and made available?
+2 upvotes | 2 answers | 0 reply
+
+Kiran Raja answered -
+Hi Yvegeniy, the results are available here - https://arxiv.org/abs/2202.12426
+
+
+Yevgeniy B. Sirotin answered -
+Kiran - thank you.
+
+
+[07:38 AM]
+Richard Vorder Bruegge asked : We need a data collection effort...
+1 upvote | 0 answer | 0 reply
+
+
+[08:11 AM]
+Alexandre Carmo asked : Do you think that behavior with FMR is related only with the training of the AI? How could we solve this? Do the vendor consider this when setting up their thresholds? Thanks.
+
+1 upvote | 1 answer | 1 reply
+
+Yevgeniy B. Sirotin answered -
+I do not believe current standards specify that FMR for face should be estimated for demographically homogeneous cohorts and vendors do not do this.
+
+Alexandre Carmo replied -
+Thanks.
+
+
+[08:13 AM]
+Richard Vorder Bruegge asked : Would you put the link to the 2021 paper in the chat, please?
+1 upvote | 5 answers | 2 replies
+
+Yevgeniy B. Sirotin answered -
+Here you go Richard. https://mdtf.org/publications/ICPR2022-Clustering.pdf
+
+
+Richard Vorder Bruegge replied -
+Thanks Yevgeniy!
+
+John J. Howard answered -
+Just to clarify -- the 2021 paper was why this "watchlist imbalance effect" could be an issue, its here:  https://mdtf.org/publications/TPS-Features.pdf
+
+John J. Howard answered -
+The one Yevgeniy linked is the newest paper -- how to remove demographic clustering.
+
+
+Yevgeniy B. Sirotin answered -
+Yes, the paper I shared has the technical details behind what John Howard was presenting.
+
+Yevgeniy B. Sirotin answered -
+Patrick previously shared a link to our TPS.
+
+Richard Vorder Bruegge replied -
+Thanks - I was looking for the older paper...
+
+
+[08:13 AM]
+Hans de Moel asked : Does this homogenity issue apply to both faceweb algorithms and skintexture algorithms?
+1 upvote | 2 answers | 0 reply
+
+Yevgeniy B. Sirotin answered -
+I am not familiar with the specific algorithms mentioned, however, I do suspect that leveraging skin texture may resolve some of these issues, however, as stated yesterday, this may fundamentally change the resolution at which we are performing face recognition.
+
+Patrick Grother answered -
+Is skin texture commercially available? I think not. We think - a hypothesis - that skin texture would have lower demographic FMR problems, but as a biometric it is very under-studied.
+
+
+[08:44 AM]
+Doris (Canada/RCMP) asked : I am not following why gender would even be collected as far as a mandatory biographic field for identification purposes. Is it not possible to recommend avoiding gender and rely on a more non-prescriptive biometric search? (sorry if I am misunderstanding?)
+1 upvote | 2 answers | 1 reply
+
+Michael King answered -
+thanks for your question Doris.  Probably as you were typing, i suggested that gender is not needed for FR.  And I agree with your recommendation.  I surmise that much of the interest in gender classification is based on legacy FR systems.  But sounds like the 19795-10 includes this information.  Feel free to reach out to me at michaelking@fit.edu to discuss this further if you would like.
+
+John J. Howard answered -
+Atleast in the U.S., gender is a protected class, meaning its illegal for certain processes to discriminate based on gender.  This is why gender is sometimes collected in processes that may not necessarily need it (like bank loan applications for example).
+
+Doris (Canada/RCMP) replied -
+Thank you Michael, I hadn't considered legacy information! Thanks for your explanation  and for your contact information! I found your presentation extremely helpful!
+
+
+[08:49 AM]
+J-P Morichon asked : I understand from your study that actually we should classify by race but by skin color: do you confirm ? 
+
+1 upvote | 1 answer | 1 reply
+
+Michael King answered -
+determining skin-tone operationally is quite challenging.  But I think it some cases with the proper environmental controls and props in the scene, it may be possible.  But in-the-wild, i don't think it's possible with today's methods.
+
+J-P Morichon replied -
+Interesting! Reflectance is the key for sure. Tahnk you for your answer
+
+
+[09:11 AM]
+Joyce Yang asked : Could you talk a bit about the datasets that were used for the study? It seems challenging to obtain images of children (due to staying still, informing them of the process, etc)
+1 upvote | 0 answer | 0 reply
+
+
+[09:18 AM]
+Keivan Bahmani asked : The dataset is not publicly available, however,We are working on putting the dataset on BEATS platform. 
+1 upvote | 0 answer | 0 reply
+
+
+[09:55 AM]
+Quentin - UK Home Office asked : When plotting the vulnerability to morphs - are you using a "new" image from the same person or an image that contributed to making the morph?
+ 
+1 upvote | 1 answer | 0 reply
+
+Patrick Grother answered -
+A new image
+
+
+[10:13 AM]
+kayee.hanaoka asked : From Yevgeniy B. Sirotin:
+
+Question for Mei: How does morphing detection relate to when siblings and other genetic relations exist in the gallery?
+1 upvote | 1 answer | 0 reply
+
+Mei Lee Ngan answered -
+Good question.  We are planning a follow-on to the 1:N morph detection study to include twins in the gallery to understand those effects.  Siblings would be interesting to study as well (we need data!).
+
+
+[10:38 AM]
+Hans de Moel asked : @ Matteo: in what way is the quality of the live stream photo (lighting) of influence to give a match with a morph? 
+1 upvote | 1 answer | 0 reply
+
+Matteo Ferrara answered -
+Illumination and other factors like aging can surely affects the verification process for both morphed and bonafide comparisons.
+Usually to assure a FMR=0.1%, FRSs used in ABC gates must be robust to these factors. 
+
+
+[11:48 AM]
+Michael Matyas asked : Does the e-learning training that Cathrine Fari described yesterday include doctrine on morph detection?
+1 upvote | 0 answer | 0 reply
+
+
+[11:49 AM]
+Una Kelly asked : What about the psychological aspect? In practice the ratio of bona fide images vs. morphed images would be very different from the ratio in this type of survey. Might that decrease performance?
+1 upvote | 1 answer | 1 reply
+
+Kiran Raja answered -
+Hi Una, we analyse both APCER and BPCER  to account for this. 
+
+Una Kelly replied -
+Hi Kiran, I think that APCER and BPCER might be different (probably worse) if people knew that probably only a tiny fraction of the images are morphs.
+
+
+[07:25 AM]
+gabriel hine asked : Are there similar reports for fingerprints and irises? 
+
+0 upvote | 1 answer | 1 reply
+
+Patrick Grother answered -
+In short, there are not such measures for iris and finger.
+
+gabriel hine replied -
+Thanks Patrick. I get the point on iris being epigenetic, but it would still be interesting analyzing the disparity in FNMRs among subsets
+
+
+
+[07:39 AM]
+Richard Vorder Bruegge asked : (Of course, ground truthed data is more than mug shot - i.e., visa as Patrick showed...)
+0 upvote | 0 answer | 0 reply
+
+
+[07:50 AM]
+Mei Lee Ngan asked : Question for Patrick:
+
+From Stephanie Schuckers:
+Do you have different thoughts on metrics for FNMR for 1:1 since they are smaller? Differences are easier to understand by public.
+0 upvote | 3 answers | 0 reply
+
+Patrick Grother answered -
+I like Gini for FNMR.  As an aside, I like Gini also because policy makers know what it is.
+I like max/geomean for FMR because FMR spans decades.
+
+Patrick Grother answered -
+FMR differences make little sense when FMR spans decades.  0.1 - 0.0001 is 0.1.   Compare that with 0.1 - 0.001 which is also 0.1.   The ratios give "how many times worse" is X than Y.  That gives you easy way to determine $ costs for group X when you have data for group Y, for example.
+
+Yevgeniy B. Sirotin answered -
+I think mathematical differences on false positives may be appropriate when you are reporting results.  Where large FMR ratios make an operational impact is in identification scenarios, in which case you will have potentially large FPIR differences.  I suggest converting FMR to FPIR or some other metric that estimates errors across many transactions before reporting the difference.
+
+
+[08:50 AM]
+J-P Morichon asked : I understand from your study that actually we should classify by skin color not by race (sorry for the mistake)
+
+0 upvote | 4 answers | 3 replies
+
+John J. Howard answered -
+Here's our 2019 paper showing skin reflectance was a better explainer of performance variation than self reported race if it helps: https://mdtf.org/publications/demographic-effects-image-acquisition.pdf
+
+J-P Morichon replied -
+Thank you John!
+
+John J. Howard answered -
+And our 2021 paper showing difficult to classify skin color from uncontrolled imagery:
+https://mdtf.org/publications/TBIOM-Phenotypes.pdf
+
+Yevgeniy B. Sirotin answered -
+I do not know if you caught my talk on Tuesday, but I showed some new results on the relationship between skin tone and biometric performance.
+
+J-P Morichon replied -
+Yes, I got your talk and actually my question was more to "is it pertinent to talk about race when what has an impact is the skin tone (reflectance) ?"
+
+Yevgeniy B. Sirotin answered -
+I think genetic ancestry plays a bigger role in FMR, but we see skin tone, as mediated by camera imaging, as playing a role in FNMR.
+
+J-P Morichon replied -
+Thank you! Important to remind this (what I could have forgotten ;-) )
+
+
+[09:21 AM]
+Keivan Bahmani asked : https://github.com/keivanB/Young..Face_Aging_YFA
+0 upvote | 0 answer | 0 reply
+
+
+[09:25 AM]
+Keivan Bahmani asked : Joyce, we presented some details on our data collection in the paper. https://arxiv.org/pdf/2204.01760.pdf
+0 upvote | 0 answer | 0 reply
+
+
+[09:27 AM]
+Joyce Yang asked : Thanks. Very helpful.
+0 upvote | 0 answer | 0 reply
+
+
+[11:08 AM]
+praveen kumar asked : Can you check the  Aging style transfer to bona field image.
+
+0 upvote | 0 answer | 0 reply
+
+
+[11:08 AM]
+Nicholas Orlans asked : Thank you for presentation!
+Have GAN-based morphs been evaluated against gan detectors?
+ 
+0 upvote | 1 answer | 0 reply
+
+Zander Blasingame answered -
+The GAN critic has been used with transfer learning to detect GAN-based and classical morphs. More details can be found in our paper, "Leveraging Adversarial Learning for the Detection of Morphing Attacks"
+
+
+[11:10 AM]
+Chamberlin -DHS asked : For CITeR team- for face image quality- did you use any of your quality assessment tools developed in-house?  Or something else?
+0 upvote | 2 answers | 0 reply
+
+Zander Blasingame answered -
+The Clarkson team has used the Frechet Inception Distance (FID) to evaluate image quality
+
+Nasser Nasrabadi answered -
+Chris, at WVU we did use any quality evalution on our Morph faces, we just evalauted it on our WVU morph detectors + calculated MMPMR index which provides a measure fo  vulnerabilty of the morph faces
+
+
+[11:21 AM]
+Jason Prince asked : For Morph detection - what guidance do you have on image pixels dimensions (is bigger better?) and image formats to assist morph detection?
+
+0 upvote | 1 answer | 1 reply
+
+Zander Blasingame answered -
+It depends on the verifier that is being used. One might accept images of 224x224 resolution, and others might prefer another resolution based on how the model was trained. Often a face detector like MTCNN is used to detect and align the face. The face detector is configured to pass cropped images of the preferred resolution to the face verifier. Importantly, the size of the crop to the face can play a large role in the performance of the detector and strength of the morph. 
+
+Jason Prince replied -
+thanks
+
+
+[11:31 AM]
+praveen kumar asked : Aging base style transfer morph attack and detection.
+
+0 upvote | 0 answer | 0 reply
+
+

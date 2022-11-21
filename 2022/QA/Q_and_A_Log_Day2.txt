@@ -1,0 +1,399 @@
+EVENT NAME
+
+International Face Performance Conference (IFPC) 2022
+
+EVENT DATE: THURSDAY, 17 NOVEMBER, 2022 - 06:45 AM to 12:15 PM
+
+EVENT BY: MEI LEE NGAN
+
+
+
+Posted Questions
+[08:47 AM]
+Mauricio Anaya asked : This is great training. Would this be available to other government officials from different countries and if so, how can one request access?
+12 upvotes | 1 answer | 0 reply
+
+Cathrine Elisabeth Fari answered -
+Hi Mauricio and thank you! Yes, this will be available for all types of government agencies. Please request access here:https://www.nidsenter.no/face and press "how to apply for access".
+
+
+[10:20 AM]
+Anna asked : You say the face is not private - legally speaking, maybe this is correct in the US, but in Europe, according to GDPR, face IS private and your photos cannot be shared online without consent. Not all EU countries interpret GDPR so strictly, but many do. 
+
+6 upvotes | 1 answer | 1 reply
+
+Brendan Klare answered -
+In the EU, for football/soccer match, shouldnt they have to blur all the faces in attendance then? I think this is why GDPR needs to be revisited. In some cases it doesnt make much sense in the context of how the world actually operates
+
+Anna replied -
+If you attend a public event in the EU, some countries ask you to provide consent that you are happy to be photographed / recorded when you register / buy your tickets.
+
+
+[07:22 AM]
+Asif Khan asked : What about the training data? Is it allowed to use face images downloaded from Internet without consent for training a face recognition AI model?
+5 upvotes | 1 answer | 0 reply
+
+Irina Orssich (EC DG CNECT) answered -
+Normally not, unless manifestly made public ... But data protection authorities define this narrowly, for example in the clearview case
+
+
+[07:23 AM]
+Dan asked : Who defines ACCURACY? How is it tested, how often, by whom, and to what methodology?
+
+4 upvotes | 1 answer | 0 reply
+
+Irina Orssich (EC DG CNECT) answered -
+The details would be subject to the standard
+
+
+[10:21 AM]
+Udo Mahlmeister asked : Neda, can you think of ways to control/mitigate potential skin tone differentials in FR algorithms by augmenting trainings sets with synthetic images?
+3 upvotes | 0 answer | 0 reply
+
+
+[10:54 AM]
+Yevgeniy B. Sirotin asked : The recent DHS S&T Biometric Technology Rally focused on group processing.  Would it be important to continue testing these acquisition technologies in the future?
+3 upvotes | 0 answer | 0 reply
+
+
+[07:21 AM]
+Richard Vorder Bruegge asked : Do I understand it that the High Risk example means that law enforcement could NOT use FR to scan video footage if a crime has happened?  For example, if there was evidence to indicate that a G20 protester was subsequently involved in a criminal act? 
+
+2 upvotes | 1 answer | 1 reply
+
+Irina Orssich (EC DG CNECT) answered -
+They can (according to national law) scan after the event. The prohibition concerns "real-time".  Data protection rules need to be respected and the requirements of the AI Act complied with, but NO prohibition. 
+
+Richard Vorder Bruegge replied -
+Thank you!
+
+
+[07:26 AM]
+Richard Vorder Bruegge asked : Thank you! "Only real time" provides great clarity!
+2 upvotes | 0 answer | 0 reply
+
+
+[08:19 AM]
+Istvan Racz asked : Does this framework fully comply with GDPR?
+2 upvotes | 1 answer | 1 reply
+
+Odhran McCarthy answered -
+Yes, it has been designed with GDPR in mind
+
+Istvan Racz replied -
+thank you
+
+
+[08:20 AM]
+Natalia Menéndez asked : How does it affect your emphasis on differentiating between biometric templates and facial images fact that SOTA FRT empowered by deep learning does not use biometric templates?
+2 upvotes | 2 answers | 1 reply
+
+Patrick Grother answered -
+Isn't this just a definition problem: Industry uses the word "template" for the data that an AI developer of FRT would call an "embedding".  Is a "biometric template" different ?
+
+Natalia Menéndez replied -
+Completely agree, but we have, for instance seen this with the definition of AI on the AI Act, in law (but also in many other fields) words matter a lot.
+
+Odhran McCarthy answered -
+The emphasis about making a distinction between biometric templates and facial images was specifically an issues for policies around storage, retention and deletion
+
+
+[08:46 AM]
+M Ngan asked : Question from Dan Rappaport:
+
+I have a question. When comparing face images, does the aspect ratio affect your determination? What if one image is streched and the features are wider or narrower than they should appear?
+2 upvotes | 0 answer | 0 reply
+
+
+[09:07 AM]
+Richard Vorder Bruegge asked : Neal, do you have any representative cases in which color blindness affected the analysis? I'd like to see that data if it exists. 
+2 upvotes | 0 answer | 0 reply
+
+
+[09:27 AM]
+Ananya asked : Are the slides available / going to be made available afterwards?
+
+2 upvotes | 0 answer | 0 reply
+
+
+[10:26 AM]
+James R. Matey asked : Brendan,  Any chance that the algorithms have been specifically trained to do well on the images from PNAS?
+2 upvotes | 3 answers | 0 reply
+
+Brendan Klare answered -
+Great question.  I showed results from our (Rank One's) algo I that slide, and I can guarantee that didnt happen with our algo. I cant say for others, but I'd say for legacy vendors it is possible, for newer vendors it is unlikely
+
+Patrick Grother answered -
+It's a tiny test set, results for which are buried in the report and have never been used for marketing. 
+
+Brendan Klare answered -
+Yeah, very tiny set
+
+
+[07:19 AM]
+Yevgeniy B. Sirotin asked : Good morning.  Would you please be able to describe how this legislation would apply to research activities?
+1 upvote | 1 answer | 0 reply
+
+Irina Orssich (EC DG CNECT) answered -
+Research activities are not in the scope of the regulation and are not impacted.
+
+
+[07:21 AM]
+Damianos Chronakis asked : Hello, so FRS that is used only for booking purposes (e.g. to compare mugshots of individuals) where there is an active involvement of the subject shall be considered non-high risk?
+1 upvote | 1 answer | 0 reply
+
+Irina Orssich (EC DG CNECT) answered -
+If I understand the use case correctly, there is no high-risk.
+
+
+[07:24 AM]
+Richard Vorder Bruegge asked : As a follow up/clarification to my question - if a witness were to state that they saw the subject of the investigation as a G20 protester, law enforcement could not use the video as an investigative lead?
+1 upvote | 1 answer | 0 reply
+
+Irina Orssich (EC DG CNECT) answered -
+real time: where there is a serious crime, plus certain other conditions fulfilled (Article 5 AI Act), post... see other reply
+
+
+[07:25 AM]
+Ilan Arnon asked : What about the use of a FR system for the purpose of identifying persons on a "Whitelist", e.g. VIP customer at a retail store?
+
+1 upvote | 1 answer | 0 reply
+
+Irina Orssich (EC DG CNECT) answered -
+Not a problem , unless everybody else around is scanned as well. 
+
+
+[07:46 AM]
+Christoph Busch asked : Question to Pierre: For the human reviewer would it make sense, to require a super-recogniser test?
+1 upvote | 0 answer | 0 reply
+
+
+[07:48 AM]
+John J. Howard asked : Your slide 28 mentioned efforts to *reduce* demographic differentials but this is outside the scope of 19795-10, which focuses on simply measuring.  Can you comment on what techniques does the standard recommend to reduce demographic differentials? 
+1 upvote | 0 answer | 0 reply
+
+
+[08:46 AM]
+Richard Arendsen asked : Do you have any idea what will be the rank/FNMR of trained humans on the NIST FRVT for instance VISA images?
+1 upvote | 0 answer | 0 reply
+
+
+[08:47 AM]
+James R. Matey asked : When/how could I take this training?
+
+1 upvote | 1 answer | 1 reply
+
+Cathrine Elisabeth Fari answered -
+Hi James! Thank you for your interest in the e-learning! The training is not finished yet, it is a work in progress. We will strive to finish making the modules in the coming year. We will make them available at the landing page https://www.nidsenter.no/face as soon as we finish them. There are information on the page how to apply for access.
+
+James R. Matey replied -
+Thanks.  Will apply
+
+
+[08:51 AM]
+Ananya asked : Can organisation sign up for this training/ e-learning? What are the crtiteria.
+
+1 upvote | 1 answer | 0 reply
+
+Cathrine Elisabeth Fari answered -
+Hi Ananya! Thank you for your interest! Yes, all types of Government agencies may apply for access. Please follow this link: https://www.nidsenter.no/face 
+
+
+[09:31 AM]
+Richard Vorder Bruegge asked : Sorry - cut and paste problems... continues question here: not collected by the law enforcement agency but instead by another party (e.g., bank security camera). Is RAND's policy analysis focusing on the distinction between forensic use of existing imagery vs. live face scanning / watchlisting?
+1 upvote | 1 answer | 3 replies
+
+Samuel Peterson answered -
+Yes, we include some discussion around that. That's probably the biggest distinction across use types that we consider. It's also not generally being used by police in the US currently
+
+Richard Vorder Bruegge replied -
+Wow - you obviously did not talk with us, then.
+
+Richard Vorder Bruegge replied -
+This really concerns me about your study, because policy makers absolutely must understand that use case, otherwise blanket "bans" will put forensic analysis of such data at a great risk.
+
+Richard Vorder Bruegge replied -
+For example, in the most extreme case, a blanket ban on FR for video from body worn cameras after the fact would eliminate the possibility to conduct a search of an individual who attacks and kills an officer wearing a camera.  That type of scenario for "after the fact analysis" should be addressed in any comprehensive look at police use of FR.
+
+
+[10:10 AM]
+Sacha Refshauge asked : Isn't in the case that synthetic faces adopt the features of the images that the model is trained on? The generator also focuses on the face rather than background, lighting+noise. This explains why they look similar and why they also cluster so well. Would training it differently fool the detector?
+1 upvote | 0 answer | 0 reply
+
+
+[10:12 AM]
+Steve Cook - ID R&D asked : How are you preventing an injection attack of a deepfake video regarding a morphed image on desktop?
+1 upvote | 0 answer | 0 reply
+
+
+[10:29 AM]
+Yevgeniy B. Sirotin asked : Brendan, what implications do you think handling twins will have on the resolution (i.e., pixels between the eyes) that will be required?  How much more information will we need?
+1 upvote | 2 answers | 0 reply
+
+Brendan Klare answered -
+Very good question... I think twins will generally require high resolution to accurately differentiate, especially in the cases of younger twins
+
+Brendan Klare answered -
+Hard to say how much more info is ultimately needed, but probably a good gauge is whether or not freckles can be reliably observed 
+
+
+[11:05 AM]
+Richard Vorder Bruegge asked : On the freckle detail issue for twins - we established the ANSI-NIST Face Standard at Level 50/51 to meet or exceed 0.1 mm per pixel on the facial image. Roughly 2500x1700 pixels across the face. That should be more than enough   to get high skin level detail.
+1 upvote | 0 answer | 0 reply
+
+
+[11:24 AM]
+Stephan asked : How do you tackle the problem of re-evaluation after software updates?
+1 upvote | 1 answer | 0 reply
+
+Michael Thieme answered -
+this was answered in the chat ... one short cut to validate that a system is still performant after an update would be to test at the threshold / series where errors (e.g. APCER) started to occur - e.g. where you observed say 3% APCER. If the re-test results are in that general range that's probably sufficient validation. But to measure step-changes necessitates a new test at scale. 
+
+
+[07:47 AM]
+Yevgeniy B. Sirotin asked : What is the human reviewer directed to do by this standard?  To compare biometric images or to use orthogonal data?
+0 upvote | 1 answer | 0 reply
+
+Odhran McCarthy answered -
+The framework recommends that the human facial examiner conduct an initial quality assessment of the probe image to ensure it is high enough quality for facial comparison. Once the search the is completed, the facial examiner should then analyze and manually compare the probe image with the proposed candidate list. If a possible match is made, a further facial exmainer should conduct a blind peer review. 
+
+
+[07:55 AM]
+Zsuzsanna Bartha asked : Is there a planned EU regulation regarding this new standard? Would High-Risk activities has to be compliant  with it in the future?
+0 upvote | 0 answer | 0 reply
+
+
+[08:00 AM]
+Mauricio Anaya asked : One monitor but sharing the wrong presentation
+
+0 upvote | 0 answer | 0 reply
+
+
+[08:17 AM]
+Doris asked : Just downloaded the document and will be using this to help inform policy (Canada/RCMP). Thank you! What is the criteria for being able to participate in future pilots?
+0 upvote | 1 answer | 1 reply
+
+Odhran McCarthy answered -
+Delighted to hear. Happy to discuss further if you wish (odhran.mccarthy@un.org). Participation in the pilot was voluntary. Members of INTERPOL's Facial Recognition Working Group were invited to participate in the pilot.
+
+Doris replied -
+Thank you Odhran! I will surely be in touch!
+
+
+[08:23 AM]
+Cathy Tilton asked : Is there a link for the latest document?
+
+0 upvote | 1 answer | 0 reply
+
+Odhran McCarthy answered -
+https://www3.weforum.org/docs/WEF_Facial_Recognition_for_Law_Enforcement_Investigations_2022.pdf
+
+
+[08:23 AM]
+Richard Vorder Bruegge asked : Cathy - in the chat!
+0 upvote | 0 answer | 0 reply
+
+
+[08:25 AM]
+Cathy Tilton asked : Thank you, Richard.
+
+0 upvote | 0 answer | 0 reply
+
+
+[08:29 AM]
+Yevgeniy B. Sirotin asked : Has your organization conducted any studies to assess the ability of border officers to detect errors made by modern FR systems? 
+0 upvote | 0 answer | 0 reply
+
+
+[08:47 AM]
+Richard Vorder Bruegge asked : Odhran, use of the phrase "peer reviewer" is an unfortunate holdover from outdated forensic laboratory practice which leads to confusion with the "peer review" process in scientific literature.  We are trying to get the community to transition to the phrase Technical review (conducted by a "peer")  
+0 upvote | 1 answer | 1 reply
+
+Odhran McCarthy answered -
+Thanks for sharing Richard and clarifying this. We went with language coming from and familiar to the law enforcement agencies participating in the process. But I appreciate your interests and motivation in moving away from this.
+
+Richard Vorder Bruegge replied -
+Understood.  Great piece of work... I hope we can help move it forward.
+
+
+[08:50 AM]
+Zuzana asked : Wonderful effort! Would there be a possibility for university researchers to access the training and the database (in cooperation with you, of course)?
+0 upvote | 1 answer | 0 reply
+
+Cathrine Elisabeth Fari answered -
+Thank you Zuzana! The digital training grounds will be accessable for all who will be granted access to the e-learning. Please contact me at cathrine.fari@nidsenter.no with question on possibilities to access the database. 
+
+
+[08:51 AM]
+Suzie Kettridge asked : Is the training suitable for those working with facial recognition systems that deal with low quality images such as cctv? Morphological comparison may not be possible in these instances.
+0 upvote | 1 answer | 0 reply
+
+Cathrine Elisabeth Fari answered -
+Hi Suzie! Thank you for you question! 
+The e-learning will provide the students with basic knowledge of facial comparison. We will strive to also populate the digital training ground with CCTV images and other images of low quality to practice on.
+
+
+[09:26 AM]
+Richard Vorder Bruegge asked : Does your study address the use of FR to analyze seized data for triage purposes? I.e., when a large set of evidence is acquired, organizing it based on facial images is often necessary to quickly locate subjects of interest.
+0 upvote | 1 answer | 0 reply
+
+Samuel Peterson answered -
+I think that's covered in our report under an "administrative uses" section. Although, we do note that there are concerns about analysis of large swaths of law enforcement data like body camera videos for facial images 
+
+
+[09:30 AM]
+Richard Vorder Bruegge asked : Posting on behalf of Brendan Klare: There is a lot of talk in this presentation about law enforcement "scanning" individuals, and taking photographs. But, 99%+ of law enforcement FR use is post-incident and uses images not collected by the l
+0 upvote | 0 answer | 0 reply
+
+
+[09:45 AM]
+Cathy Tilton asked : Re: Poll on NIST age estimation - would this include children?
+
+0 upvote | 1 answer | 1 reply
+
+Patrick Grother answered -
+It did last time we ran
+
+Cathy Tilton replied -
+Thank you!
+
+
+[09:46 AM]
+Ananya asked : yes it would be interesting to have NIST run vendor test on age estimation
+
+0 upvote | 0 answer | 0 reply
+
+
+[10:08 AM]
+Anna asked : How much adding 'noise' to an image affects deepfake detection rates currently?
+0 upvote | 0 answer | 0 reply
+
+
+[11:18 AM]
+Yevgeniy B. Sirotin asked : One of the challenges in testing PAD, is selection of species, which is an open set.  The resulting metrics are therefore dependent on this choice.  What guidance can be given for PAD species selection given the evolving threat?
+0 upvote | 2 answers | 1 reply
+
+Michael Thieme answered -
+So in my opinion (weak answer) it's really use case dependent. Is the tester worried about nation-state actors vs YouTube hackers ... in some cases the point of the testing is to actually test emerging species. In our experience, we gain the most insights by testing state of the art, or the most sophisticated species that we can get access to. This gives us insights into some underlying system behaviors. 
+
+Yevgeniy B. Sirotin replied -
+Thank you Michael.
+
+Patrick Grother answered -
+sorry missed this question in real time.
+
+
+[11:19 AM]
+Hanry asked : is it 2024 or 2023 on this part 4. profile for testing of mobile devices
+0 upvote | 1 answer | 0 reply
+
+Michael Thieme answered -
+I estimate that it won't be published until 2024 but it will be stable in 2023. Publication takes several months due to the ballot cycle
+
+
+
+[11:53 AM]
+Joyce Yang asked : Thank you for the talk. On slide 10, was each covariate taken in isolation, or were there combinations of covariates that were tested?
+0 upvote | 0 answer | 0 reply
+
+
